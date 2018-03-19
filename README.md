@@ -4,7 +4,7 @@ This is the coursework of the information consultation course. See [assignment r
 
 ## Choose Company
 
-**[Ubisoft](www.ubisoft.com)** 
+**[Ubisoft](http://www.ubisoft.com)** 
 
 ![Ubisoft Logo](src/ubisoftlogo.png)
 
