@@ -1,10 +1,14 @@
 # Company-Dossier
 
+<<<<<<< HEAD
 This is the coursework of the information consultation course. See [assignment requirement ]( /CompanyDossierBuilding.md)
+=======
+This is the coursework of the information consultation course. See [assignment requirement ](/Company%20Dossier%20Building.md)
+>>>>>>> 303b7f7573bc159d97d3833aacb2214fbfa5efdc
 
 ##Choose Company
 
-**[Ubisoft](www.ubisoft.com)** 
+**[Ubisoft](http://www.ubisoft.com)** 
 
 ![Ubisoft Logo](src/ubisoftlogo.png)
 
