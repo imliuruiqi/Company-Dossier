@@ -1,6 +1,6 @@
 # Company-Dossier
 
-This is the coursework of the information consultation course. See [assignment requirement ](/CompanyDossierBuilding.md)
+This is the coursework of the information consultation course. See [assignment requirement ](/Company%20Dossier%20Building.md)
 
 ## Choose Company
 
