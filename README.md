@@ -2,7 +2,7 @@
 
 This is the coursework of the information consultation course. See [assignment requirement ](  /Company%20Dossier%20Building.md)
 
-##Choose Company
+## Choose Company
 
 **[Ubisoft](http://www.ubisoft.com)** 
 
