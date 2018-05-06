@@ -23,7 +23,7 @@ This is the coursework of the information consultation course. See [assignment r
 
 **以官方首页EN为主，社交网络媒体为辅：** Ubisoft在全球主要国家都有其官网和社交账号，全部搜集的话难度大且重复工作多，因而可以主要从最官方的主页，即其英文版首页入手搜集信息。
 
-**利用好第三方整合好的数据：** 提到游戏就不得不提steam，利用好steam平台是搜集好Ubisoft公司产品的关键，有关Steam的介绍参见：[steam-wikipedia](https://zh.wikipedia.org/zh-cn/Steam),关于本项目如何使用steam，参见[get infromation for Steam](/get%20infromation%20for%20Steam.md)。
+**利用好第三方整合好的数据：** 提到游戏就不得不提steam，利用好steam平台是搜集好Ubisoft公司产品的关键，有关Steam的介绍参见：[steam-wikipedia](https://zh.wikipedia.org/zh-cn/Steam),关于本项目如何使用steam，参见[get infromation from Steam](/get%20infromation%20from%20Steam.md)。
 
 **以产品服务为重点:** 在游戏行业，游戏做的好不好，销量怎么样是一个公司成败的关键。游戏的口碑和销量是本次信息搜集的落脚点，由此延伸出对公司的外界评价和公司发展状况的信息。
 
