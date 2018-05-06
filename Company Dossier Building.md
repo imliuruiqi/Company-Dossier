@@ -1,7 +1,7 @@
 # Company Dossier Building
 
 * Create a company dossier on the company and its specific product or service. This is a paper that will summarize and synthesize the information you have been gathering in all semester.
-* **You should include:** 
+* **You should include:**
   * company description
   * product or service description
   * company history
