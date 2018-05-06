@@ -1,12 +1,12 @@
 # Company-Dossier
 
-This is the coursework of the information consultation course. See [assignment requirement ](  /Company%20Dossier%20Building.md)
+This is the coursework of the information consultation course. See [assignment requirement](  /Company%20Dossier%20Building.md)
 
 为提供概括功能，该文档将尽量保持简洁。
 
 ## Choose Company
 
-**[Ubisoft](http://www.ubisoft.com)** 
+**[Ubisoft](http://www.ubisoft.com)**
 
 ![Ubisoft Logo](src/ubisoftlogo.png)
 
@@ -28,6 +28,7 @@ This is the coursework of the information consultation course. See [assignment r
 **以产品服务为重点:** 在游戏行业，游戏做的好不好，销量怎么样是一个公司成败的关键。游戏的口碑和销量是本次信息搜集的落脚点，由此延伸出对公司的外界评价和公司发展状况的信息。
 
 **关注重点事件** 根据搜集的信息确定重点关注事件，目前需要关注：最新发布的游戏、Ubisoft股权（以及与腾讯的合作）。*页面待创建
+
 #### 统一整理
 
 主要从官方网站搜集关键信息：公司介绍 产品服务 公司历史等
@@ -44,13 +45,13 @@ This is the coursework of the information consultation course. See [assignment r
 
 ## 信息整理
 
-*该步骤未完全开展*
+该步骤未完全开展
 
 目前先以该项目的文档结构进行信息整理，利用Git版本控制功能进行版本控制。根据信息搜集的情况实时调整文档结构。
 
 ## 信息分析
 
-*未开展，该板块内容可能与最终版出入较大*
+未开展，该板块内容可能与最终版出入较大
 
 根据所能收集的内容进行信息分析，可借助Python
 
@@ -58,6 +59,7 @@ This is the coursework of the information consultation course. See [assignment r
 - 数据统计类信息：数据分析，分组和筛选等
 
 期待得出的信息：
+
 - 公司的效益趋向、口碑趋向
 - 产品的情况：重点产品、产品效益口碑
 - 优劣势分析
