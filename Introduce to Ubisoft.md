@@ -22,7 +22,7 @@
 | 员工人数                                                     | 10,000（2016）                                               |
 | 网站                                                         | [www.ubisoft.com](http://www.ubisoft.com/)                   |
 
-育碧娱乐公司（英语：Ubisoft Entertainment SA），2003年前名为“育碧娱乐软件”（Ubi Soft Entertainment Software），简称“育碧”（Ubisoft），是一家总部设于法国雷恩[6]的股份公司、电子游戏开发商和发行商，成立于1986年。该公司在全世界拥有23间游戏开发工作室，是2008年欧洲第三大独立游戏开发商，也是北美第四大独立游戏出版商。 
+育碧娱乐公司（英语：Ubisoft Entertainment SA），2003年前名为“育碧娱乐软件”（Ubi Soft Entertainment Software），简称“育碧”（Ubisoft），是一家总部设于法国雷恩[6]的股份公司、电子游戏开发商和发行商，成立于1986年。该公司在全世界拥有23间游戏开发工作室，是2008年欧洲第三大独立游戏开发商，也是北美第四大独立游戏出版商。
 
 ## 历史
 
