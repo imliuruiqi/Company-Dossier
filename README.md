@@ -65,3 +65,17 @@ This is the coursework of the information consultation course. See [assignment r
 - 优劣势分析
 - 威胁与机会分析
 - 战略预测
+
+## 文档展示
+
+对获取的信息进行文档的展示，为最终的作业成果。展示的内容有：
+
+- 公司简介
+- 价值观
+- 历史 大事记
+- 重要人员
+- 股票 财务
+- 产品 市场
+- 新闻 活动
+- 竞争对手及合作伙伴
+- 职位 招聘
