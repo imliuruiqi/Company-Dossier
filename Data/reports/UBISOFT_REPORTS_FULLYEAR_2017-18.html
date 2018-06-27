@@ -1,0 +1,1108 @@
+<html><head><meta http-equiv="Content-Type" content="text/html ; charset=UTF-8"></meta><title>Download Document</title><style type="text/css">@charset "utf-8";
+
+
+body { font-size:16px !important; font-family: Arial, Helvetica, sans-serif; background: #FFFFFF !important; }
+#documentDisplay{
+	background: #FFFFFF !important;
+}
+a { text-decoration:none; color:#444 !important; }
+img { border:none; }
+
+/***** MAIN PAGE PRINT STYLES *****/
+img#img-for-mobile {
+	display: none;
+}
+
+#ATP .indexBody #bob-index ul #document-header h3 {
+	float: none;
+}
+p.bookcover a#js-book-cover-anchor img, #callistoImage, #documentDisplay dl { display:block !important; }
+#docviewAside ul {clear:both;margin:0px;padding:0px;}
+#docviewAside ul.bookPreview, #docviewAside ul.bookPreview li { list-style:none; display:block; }
+#docviewAside ul.bookPreview li.book { float:left; margin:0px; padding:0px 15px 0px 0px; }
+#docviewAside ul.bookPreview li.title { font-size:1.3em; }
+#docviewAside ul.bookPreview li img { margin:0px; height:auto; max-height:120px; width:90px; min-width:90px; }
+section#docTextView { width:auto; }
+header, #docTextView div.docTextHeader, #docTextView .docBody, div.resultsHeader { border:none !important; }
+#contentcontainer #documentDisplay span.pageBreak { font-family:Times, "Times New Roman", serif; float: right;
+	font-size:85%; font-style:italic; padding:10px 0; text-align:right; width: 100%; }
+#ATP .ATPBody {padding:0px; margin:0px; float:left;}
+#atp-docinfo ul{list-style:none;clear:both;font-size:85%;padding:0px;margin:0px;}
+#atp-docinfo ul li{border-top:1px solid #aaa;margin:0px 0px 0px 0px;padding:5px 0px 5px 0px;display:inline-block;zoom:1;*display:inline;float:left;width:auto;line-height:1.25em;}
+#atp-docinfo ul li.title{width:90px;min-width:90px;max-width:90px;font-size:85%;}
+#atp-docinfo ul li.description{width:520px;min-width:520px;max-width:520px;padding-left:10px;font-size:85%;}
+#atp-docinfo ul li p{margin:0;color:#555;line-height:1.25em;font-size:85%;}
+#atp-docinfo tr{font-size:85%;padding:0px;margin:0px;}
+#atp-docinfo td{border-top:1px solid #aaa;margin:0px 0px 0px 0px;padding:5px 0px 5px 0px;display:inline-block;zoom:1;*display:inline;float:left;width:auto;line-height:1.25em;font-size:85%;}
+#atp-docinfo td.title{width:90px;min-width:90px;max-width:90px;font-size:85%;}
+#atp-docinfo td.description{width:520px;min-width:520px;max-width:520px;padding-left:10px;font-size:85%;}
+#atp-docinfo td p{margin:0;color:#555;line-height:1.25em;font-size:85%;}
+#atp-docinfo div#atpImage {clear:both;width:135px;}
+#ATP .TOCBody div#atpImage, #ATP .indexBody div#atpImage {clear:both;float:left;left:0px;margin:5px 5px 5px 0px;padding:5px;position:static;top:0px;width:115px;}
+#atp-docinfo .TOCBody{display:block;float:left;clear:both;border: none;}
+#atp-docinfo .TOCBody ul li {display:block;float:left;clear:both;border: none;}
+#atp-docinfo .TOCBody h3{color:#444;float:left;border-bottom:3px double #EAEAEA;font-size:1.2em;font-weight:normal;margin-bottom:15px;padding:0px 0px 5px 0px;clear:both;width:600px;}
+#atp-docinfo .TOCBody ul.simpleTree {color:#444;margin:0px 20px 20px 11px;padding:0px 0px 0px 10px;font-size:85%;clear:both;}
+#atp-docinfo .TOCBody ul.simpleTree li {color:#444;margin:0px 0px 0px 0px;padding:0px 0px 5px 0px;line-height:1.25em; width:auto;}
+#atp-docinfo .TOCBody ul.simpleTree li.branch {list-style-image: url("../images/icon_arrow_right.png"); }
+#atp-docinfo .TOCBody ul.simpleTree li.branch span {cursor:pointer;}
+#atp-docinfo .TOCBody ul.simpleTree li.expanded {list-style-image:url("../images/icon_arrow_down.png");}
+#atp-docinfo .TOCBody ul.simpleTree li.leaf {list-style:none;}
+#atp-docinfo .TOCBody ul.simpleTree li ul {margin:0px 20px 0px 11px;padding:3px 0px 0px 10px;}
+#atp-docinfo .TOCBody ul.simpleTree li ul li {line-height:1.25em;padding:0px 0px 3px 0px;margin:0px;}
+#atp-docinfo .TOCBody ul.simpleTree a, #ATP .TOCBody ul.simpleTree a:visited {color:#444;}
+#atp-docinfo .indexBody{display:block;float:left;clear:both;margin:0px;padding:0px;}
+#atp-docinfo .indexBody ul li {float:left;border: none;}
+#atp-docinfo .indexBody ul li.term, #atp-docinfo .indexBody ul li.sectionBreak {display:block;float:left;clear:both;border: none;}
+#atp-docinfo .indexBody #bob-index ul { list-style:none; font-size:85%; clear:both;margin:0px;padding:0px; }
+#atp-docinfo .indexBody #bob-index ul #document-header h3 {color:#444;float:left;border-bottom:3px double #EAEAEA;font-size:1.6em;font-weight:normal;margin-bottom:15px;padding:0px 0px 5px 0px;clear:both;width:600px;}
+#atp-docinfo .indexBody #bob-index ul p { color:#555;line-height:1.5em;margin:0.2em 0 1em;font-size:85%;clear:both; }
+#atp-docinfo .indexBody #bob-index ul li { list-style:none;color:#444; }
+#atp-docinfo .indexBody #bob-index ul li ul { margin-left:10px;color:#444; }
+#atp-docinfo .indexBody #bob-index ul li span { font-weight:bold; }
+#atp-docinfo .indexBody #bob-index ul li ul.ref { margin-left:5px; margin-bottom:9px;color:#444; }
+#atp-docinfo .indexBody #bob-index ul li ul.ref li { color:#444;display:inline-block; zoom:1; *display:inline; padding-left:5px; margin-right:5px; border-left:1px solid #aaa; }
+#atp-docinfo .indexBody #bob-index ul li ul.ref li.first { border-left:0px solid #aaa;margin-left:0px;padding-left:0px; }
+#atp-docinfo .indexBody .loiResults { width:550px;border-top:1px solid #ccc;float:left;clear:both;margin:0px;font-size:85%;display:block; }
+#atp-docinfo .indexBody .loiResults div { border-bottom:1px solid #ccc; font-size:85%;clear:both;float:left; }
+#atp-docinfo .indexBody .loiResults div.header { background-color:#f2f2f2; font-weight:bold; }
+#atp-docinfo .indexBody .loiResults div div { border-bottom:none; padding:10px 10px 10px 20px;height:auto;clear:none;float:left; }
+#atp-docinfo .indexBody .loiResults div div.loiTitle { width:400px; border-right:1px solid #ccc; }
+#atp-docinfo .indexBody .loiResults div div.loiTitle a { text-decoration:none; color:#555; }
+#atp-docinfo .indexBody .loiResults div div.loiTitle span a { padding-left:4px; }
+#atp-docinfo .indexBody .loiResults div div.loiType { width:97px; text-align:center; padding-left:10px; }
+#atp-docinfo .indexBody #bob-index ul li.sectionBreak { 
+	font-weight: bold;
+}
+
+/*****  POPUP MODAL WINDOW STYLES  *****/
+	/*****  POPUP MODAL WINDOW HEADER  *****/
+	div#header{background:#fff url('../images/CL_logo.png') no-repeat 540px 6px;height:38px;padding:5px 15px 0px 0px;}
+		#header div#locationBranding, #header a.accessFeature, #printPage #header a.accessFeature { display:none; }
+	/***** PRINT PAGE STYLES *****/
+	#printPage { background-color:#fff; font-family:Times, "Times New Roman", serif; }
+		#printPage #header {  }
+		#printPage #footer { display:none; }
+		#printPage #contentcontainer { width:auto; padding:10px 20px 20px 10px; }
+		/***** PRINT PAGE - DOCUMENT DISPLAY PAGE STYLES *****/
+		#printPage #contentcontainer #documentDisplay {  }
+			#printPage #contentcontainer #documentDisplay blockquote { font-size:1.25em; line-height:1.1em; margin-top:0px; padding-top:0px; }
+			#printPage #contentcontainer #documentDisplay #docSummary { margin:0px 0px 5px 0px; }
+				#printPage #contentcontainer #documentDisplay #docSummary div.docData { margin:0px 0px 0px 0px; }
+				#printPage #contentcontainer #documentDisplay #docSummary span.rubric { display:none; }
+				#printPage #contentcontainer #documentDisplay #docSummary span#docSummary-title { 
+					color:#505050;
+					font-size:2.4em;
+				    font-family:Times, "Times New Roman", serif;
+				    line-height:1.1em;
+				    margin:0px 0px 3px 0px;
+				    display:block;
+					}
+				#printPage #contentcontainer #documentDisplay #docSummary span.definition { font-family:Times, "Times New Roman", serif; }
+				#printPage #contentcontainer #documentDisplay #docSummary span.definition b { font-size:1.25em; font-weight:normal; display:block; font-family:Times, "Times New Roman", serif; }
+				#printPage #contentcontainer #documentDisplay #docSummary span.definition i { font-family:Times, "Times New Roman", serif; }
+				#printPage #contentcontainer #documentDisplay #docSummary span#docSummary-authors { font-family:Times, "Times New Roman", serif; display:block; margin-bottom:8px; }
+				#printPage #contentcontainer #documentDisplay #docSummary span#docSummary-doctype { font-family:Arial, Helvetica, sans-serif; font-size:.8em; font-weight:bold; text-transform:uppercase; }
+				#printPage #contentcontainer #documentDisplay #docSummary #document-copyright b { display:none; }
+			#printPage #contentcontainer #documentDisplay div#atpImage { margin:0px 0px 5px 0px; }
+			#printPage #contentcontainer #documentDisplay div.document-text { font-family:Times, "Times New Roman", serif; margin:20px 0px 0px 0px; }	
+				#printPage #contentcontainer #documentDisplay span.pageBreak { 
+					font-family:Times, "Times New Roman", serif; 
+					float: right;
+					font-size: 0.9em;
+					font-style: italic;
+					padding: 10px 0;
+					text-align: right;
+					width: 100%; 
+					}
+				#printPage #contentcontainer #documentDisplay div.document-text ul { list-style:none; }
+					#printPage #contentcontainer #documentDisplay div.document-text ul li { list-style:none; padding:10px 20px 10px 10px; }
+				#printPage #contentcontainer #documentDisplay div.document-text ol { margin:0px 20px 10px 30px; }
+					#printPage #contentcontainer #documentDisplay div.document-text ol li { padding:2px 0px 3px 2px; } 
+				#printPage #contentcontainer #atpContainer, 
+				#printPage #contentcontainer #atpContainer #atp-title span,
+				#printPage #contentcontainer #atpContainer #atp-title span.title,
+				#printPage #contentcontainer #atpContainer #atp-title span.author,
+				#printPage #contentcontainer #atpContainer #atp-docinfo,
+				#printPage #contentcontainer #atpContainer #atp-docinfo table,
+				#printPage #contentcontainer #atpContainer #atp-docinfo tr,
+				#printPage #contentcontainer #atpContainer #atp-docinfo td,
+				#printPage #contentcontainer #documentDisplay span.hitHighlite,
+				#printPage #contentcontainer #documentDisplay #document-tgnumber,
+				#printPage #contentcontainer #documentDisplay #document-tgnumber p,
+				#printPage #contentcontainer #documentDisplay #document-tgnumber b,
+				#printPage #contentcontainer #documentDisplay #document-tgnumber span,
+				#printPage #contentcontainer #documentDisplay #document-tgnumber span.tgnumber,
+				#printPage #contentcontainer #documentDisplay #SourceCitation,
+				#printPage #contentcontainer #documentDisplay #SourceCitation b,
+				#printPage #contentcontainer #documentDisplay #SourceCitation .citation,
+				#printPage #contentcontainer #documentDisplay #SourceCitation .ct_Book,
+				#printPage #contentcontainer #documentDisplay #SourceCitation i,
+				#printPage #contentcontainer #documentDisplay #SourceCitation div,
+				#printPage #contentcontainer #documentDisplay span.caption,
+				#printPage #contentcontainer #documentDisplay h1,
+				#printPage #contentcontainer #documentDisplay h2,
+				#printPage #contentcontainer #documentDisplay h3,
+				#printPage #contentcontainer #documentDisplay h4,
+				#printPage #contentcontainer #documentDisplay h5,
+				#printPage #contentcontainer #documentDisplay h1 i,
+				#printPage #contentcontainer #documentDisplay h2 i,
+				#printPage #contentcontainer #documentDisplay h3 i,
+				#printPage #contentcontainer #documentDisplay h4 i,
+				#printPage #contentcontainer #documentDisplay h5 i,
+				#printPage #contentcontainer #documentDisplay h1 small,
+				#printPage #contentcontainer #documentDisplay h2 small,
+				#printPage #contentcontainer #documentDisplay h3 small,
+				#printPage #contentcontainer #documentDisplay h4 small,
+				#printPage #contentcontainer #documentDisplay h5 small,
+				#printPage #contentcontainer #documentDisplay h1 span,
+				#printPage #contentcontainer #documentDisplay h2 span,
+				#printPage #contentcontainer #documentDisplay h3 span,
+				#printPage #contentcontainer #documentDisplay h4 span,
+				#printPage #contentcontainer #documentDisplay h5 span,
+				#printPage #contentcontainer #documentDisplay ol,
+				#printPage #contentcontainer #documentDisplay ol li,
+				#printPage #contentcontainer #documentDisplay ol li b,
+				#printPage #contentcontainer #documentDisplay ol li i,
+				#printPage #contentcontainer #documentDisplay ol li span,
+				#printPage #contentcontainer #documentDisplay ul,
+				#printPage #contentcontainer #documentDisplay ul li,
+				#printPage #contentcontainer #documentDisplay ul li b,
+				#printPage #contentcontainer #documentDisplay ul li i,
+				#printPage #contentcontainer #documentDisplay ul li span,
+				#printPage #contentcontainer #documentDisplay div.SideNotePara,
+				#printPage #contentcontainer #documentDisplay div.SideNotePara p,
+				#printPage #contentcontainer #documentDisplay div.SideNotePara p small,
+				#printPage #contentcontainer #documentDisplay div.SideNotePara p b,
+				#printPage #contentcontainer #documentDisplay div.SideNotePara p i { font-family:Times, "Times New Roman", serif; }
+					#printPage #contentcontainer #documentDisplay div.document-text #document-header h1 span.citation-title { display:none; }
+				#printPage #contentcontainer #documentDisplay span.caption { font-style:italic; }
+				#printPage #contentcontainer #documentDisplay h2,
+				#printPage #contentcontainer #documentDisplay h3,
+				#printPage #contentcontainer #documentDisplay h4 { font-size:1.8em; padding:10px 0px 0px 0px; text-transform:capitalize; }
+				#printPage #contentcontainer #documentDisplay h3 { color:#505050; font-size:1.5em; border-bottom:none; margin:0px; }
+				#printPage #contentcontainer #documentDisplay h4 { font-size:1.2em; font-weight:bold; }
+				#printPage #contentcontainer #documentDisplay h5 { font-size:1em; font-weight:bold; }
+				#printPage #contentcontainer #documentDisplay div.document-text #document-header h1 { font-size:1.6em; }
+			#printPage #contentcontainer #documentDisplay #document-sourcecitation {  }
+			#printPage #contentcontainer #documentDisplay #document-tgnumber {  }
+			#printPage #contentcontainer #documentDisplay #relatedDocumentIndex { display:none; }
+			#printPage #contentcontainer #documentDisplay #document-sourcecitation {  }
+			#printPage #contentcontainer #documentDisplay #document-tgnumber {  }
+			#printPage #contentcontainer #documentDisplay div.sideBarTitle { display:none; }
+			#printPage #contentcontainer #documentDisplay div.sideBarArticle p { display:block; }
+			#printPage #contentcontainer #documentDisplay div.sideBarArticle div p { display:block; }
+		/***** PRINT PAGE - ATP PAGE STYLES *****/
+		#printPage #contentcontainer #atpContainer {  }
+			#printPage #contentcontainer #atpContainer #atp-title { margin:0px 0px 5px 0px; }
+			#printPage #contentcontainer #atpContainer #atp-title span {  }
+			#printPage #contentcontainer #atpContainer #atp-title span.title { margin:0px 0px 5px 0px; display:block; font-size:2em; font-style:italic; }
+			#printPage #contentcontainer #atpContainer #atp-title span.author {  }
+			#printPage #contentcontainer #atpContainer #atp-docinfo {  }
+			#printPage #contentcontainer #atpContainer #atp-docinfo table {  }
+			#printPage #contentcontainer #atpContainer #atp-docinfo tr {  }
+			#printPage #contentcontainer #atpContainer #atp-docinfo td {  }
+		/***** PRINT PAGE - SAVED ARTICLES PAGE STYLES *****/
+		#printPage #contentcontainer #marklist { width:auto; }
+			#printPage #contentcontainer #marklist #marklist-printform { width:auto; }
+				#marklist-printform #marklist-formcontainer { width:auto; margin:0px 0px 30px 0px; } /* marklist header */
+					#marklist-printform #marklist-formcontainer div.form_element { margin:10px 0px 10px 0px; }
+						#marklist-printform #marklist-formcontainer div.form_element #form_buttons { padding:0px 0px 10px 7px; }
+							#marklist-formcontainer div.form_element #form_buttons #form_cancel a, 
+							#marklist-formcontainer div.form_element #form_buttons #form_print a,
+							#marklist-printform div.row div#TopOfPageLink a {
+								background: url("../images/readerToggle_bg_off.png") repeat-x 0px 0px #f8f8f8;  
+								font-family:Arial, Helvetica, sans-serif; 
+								font-size:1em; 
+								color:#555; 
+								padding:3px 10px 3px 10px; 
+								margin:0px 3px 0px 3px;
+								text-decoration:none; 
+								border:1px solid #ccc;
+								line-height:2em;
+								border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px;
+								}
+								#marklist-formcontainer div.form_element #form_buttons #form_cancel a:hover, 
+								#marklist-formcontainer div.form_element #form_buttons #form_print a:hover,
+								#marklist-printform div.row div#TopOfPageLink a:hover { text-decoration:none; }
+								#marklist-formcontainer div.form_element #form_buttons #form_cancel a:active, 
+								#marklist-formcontainer div.form_element #form_buttons #form_print a:active,
+								#marklist-printform div.row div#TopOfPageLink a:active  { background: url("../images/readerToggle_bg_active.png") repeat-x 0px -15px #f8f8f8; }
+					#marklist-printform #marklist-formcontainer div.row span.label { 
+						font-family:Times, "Times New Roman", serif; 
+						text-transform:capitalize;
+						border-bottom:3px double #EAEAEA; 
+						font-size:1.6em; 
+						margin:5px 0px 10px 0px; 
+						padding:10px 0px 5px 0px;
+						display:block;
+						}
+					#marklist-printform #marklist-formcontainer ul { margin:3px 0px 6px 0px; list-style:none; }
+						#marklist-printform #marklist-formcontainer ul li { padding:2px 20px 4px 0px; list-style:none; }
+							#marklist-printform #marklist-formcontainer ul li label { padding-right:5px; font-weight:bold; }
+							#marklist-printform #marklist-formcontainer ul li span { padding-right:5px; }
+					#marklist-printform #marklist-formcontainer input[type="radio"] { float:left; margin:2px 5px 0px 2px; }
+					#marklist-printform #marklist-formcontainer div.label { display:none; }
+					#marklist-printform #marklist-formcontainer p#citation-note { padding:5px 40px 0px 10px; line-height:1.4em; } 
+						p#citation-note span.citation-note-bold { font-weight:bold; margin-right:5px; }
+				#marklist-printform .row { width:auto; }
+					#marklist-printform .row .marklistCollection { width:auto; }
+						#marklist-printform .row .marklistCollection h2 { 
+							font-family:Times, "Times New Roman", serif; 
+							text-transform:capitalize;
+							border-bottom:3px double #EAEAEA; 
+							font-size:1.6em; 
+							margin:5px 0px 10px 0px; 
+							padding:10px 0px 5px 0px;
+							display:block;
+							}
+						#marklist-printform .row .marklistCollection div.marklistCollection-Heading, 
+						#marklist-printform .row .marklistCollection div.resultsRow { border:1px solid #ccc; padding:8px; width:670px; margin:0px 0px -1px 12px; float:left; }
+						#marklist-printform .row .marklistCollection div.floatstop { display:none; }
+						#marklist-printform .row .marklistCollection div.resultsRow:after { clear:both; content:"."; display:block; height:0; visibility:hidden; }
+						#marklist-printform .row .marklistCollection div.marklistCollection-Heading { background-color:#f2f2f2; }
+							#marklist-printform .row .marklistCollection div.marklistCollection-Heading ul, 
+							#marklist-printform .row .marklistCollection div.resultsRow ul { list-style:none; }
+							#marklist-printform .row .marklistCollection div.marklistCollection-Heading label, 
+							#marklist-printform .row .marklistCollection div.resultsRow label { padding:0px; }
+							#marklist-printform .row .marklistCollection div.marklistCollection-Heading input[type="checkbox"], 
+							#marklist-printform .row .marklistCollection div.resultsRow input[type="checkbox"] { margin:2px 10px 0px 10px; }
+							#marklist-printform .row .marklistCollection div.marklistCollection-Heading span, 
+							#marklist-printform .row .marklistCollection div.resultsRow span { display:block; float:left; }
+							#marklist-printform .row .marklistCollection div.resultsRow div.marklistCollection-printselect,
+							#marklist-printform .row .marklistCollection div.marklistCollection-Heading div.marklistCollection-printall { width:52px; text-align:center; float:left; }
+							#marklist-printform .row .marklistCollection div.marklistCollection-Heading span.marklistCollectionName { font-weight:bold; margin:7px 3px 0px 150px; }
+							#marklist-printform .row .marklistCollection div.marklistCollection-Heading span.marklistCollectionSize { font-weight:bold; margin:7px 40px 0px 0px; }
+							#marklist-printform .row .marklistCollection div.marklistCollection-Heading span.marklist_doctype { font-weight:bold; width:175px; text-align:center; margin-top:7px; float:right !important; }
+							#marklist-printform .row .marklistCollection div.resultsRow div.citationBlock { width:400px; float:left; padding:0px 20px; }
+								#marklist-printform .row .marklistCollection div.resultsRow div.citationBlock span { display:inline; float:none; margin-right:2px; }
+								#marklist-printform .row .marklistCollection div.resultsRow div.citationBlock span.title { display:block; width:400px;font-size:1.1em;font-weight:bold; }
+								#marklist-printform .row .marklistCollection div.resultsRow div.citationBlock span.citation-publication { font-style:italic; }
+							#marklist-printform .row .marklistCollection div.resultsRow ul.doctype { text-align:center; width:175px; float:right; }
+								#marklist-printform .row .marklistCollection div.resultsRow ul.doctype li { margin:0px; }
+									#marklist-printform .row .marklistCollection div.resultsRow ul.doctype li span { display:inline; float:none; }
+						#marklist-printform div.row div#TopOfPageLink { margin:20px 20px 20px 10px; float:left; }
+						.markListItem {margin: 15px 0;}
+						.markListItem.pageBreak { page-break-before: always;}
+						
+		#printPage #contentcontainer #footer { display:none; }	
+#translatePage #contentcontainer #documentBody div#rs_div, 
+#translatePage #contentcontainer #documentBody div#readspeaker_button,
+#translatePage #globalTools,
+#translatePage #contentcontainer #documentBody div.readData { display:none; }
+#translatePage { font-size:150%; clear:both; width:100%; float:left; }
+#translatePage #contentcontainer #documentDisplay #docSummary span.rubric { display:none;  } 
+#translatePage #contentcontainer #documentDisplay #docSummary span.definition b { display:none; }
+#translatePage #contentcontainer #documentBody #translate-disclaimer p a { padding-left: 1em; }
+
+/***** MAIN PAGE PRINT STYLES - DISPLAY NONE *****/
+#branding, header, div.lines a.library-links, #logo, #inputFieldValue_0, #quicksearch, #quicksearchbutton, div.advancedSearch,
+div.advancedSearch a, #loginTrigger, ul#loginToggle_container, nav, ul#searchLinks, ul#tools, #docViewNav, #docViewNavBottom, 
+div.prevNextHeader, div.prevNextHeader ul, #docViewNav ul.readerToggle, #docViewNav ul.readerToggle li, #docViewNav ul.readerToggle li.text,
+#docViewNav ul.readerToggle li.reader, #pagination, .markSavedDocs, #limiters, #paginationFooter, div#tools_GVRL_legacy, 
+div#relatedDocumentIndex, .resultsBody ul li ul, div.ATPHeader, #docviewAside div.searchBook, div.searchBook, div.limiter_box,
+#docviewAside div#relatedSubjects, .TOCBody #etoc-selector, #searchResultsPage-iteratorBar_1, #searchResultsPage-iteratorBar_2, 
+#bob-body, #bob-search, footer, dl, #contentcontainer #documentDisplay span.pageBreak a, ul.readerToggle li.viewAs, ul.readerToggle li.text, ul.readerToggle li.reader,
+#documentDisplay #relatedDocumentIndex,	
+#documentBody .iteratorBar-noPds,
+#documentBody #documentDisplay #docSummary span.rubric,
+#documentBody #documentDisplay #docSummary #document-copyright b, div.readspeaker.readData, #readspeakerContainer, #docSummary-librarylinks,
+#etocContainer, #scribbledListContainer, #contentToolsLinks, #docTools, .notesEdit, .notesAddEdit, .toggleMain, .toggleTools, #marklist ul.options,
+.citationBlock .documentLinks, .marklist-removeAll-gtx, #marklist #periodical_wrapper #savedArticlesContent strong, #atp .coverageExceptions,
+ #atp .issueYears, .stackedHeader, #subjectLinks, .citationMetadata .pubInfoTitle, #backToResults, .similarArticlesAnchor,
+ .slick-prev, .slick-next,
+ #atpContainer .coverageExceptions, #atpContainer .issueYears, #docTools-pdf, .dviEtocHeader,.viewDvi, .viewText, .SMPS #docSummary, #toggleDisclaimer, #helpContent, #videoDialogContainer
+	{ display:none !important; }
+
+#docSummary-orc div.first {
+	margin-left: 0px;
+}
+
+#docSummary-orc div.orcLink {
+	margin-left: 25px;
+} 
+
+#docSummary-orc .rubric {
+	vertical-align: middle;
+}
+
+#docSummary-orc .rubric a {
+	text-indent: -9999px;
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: url("../images/ORCID_icon_16x16.png") no-repeat;
+	margin-left: 5px;
+	vertical-align: middle;
+}
+
+#docSummary-orc .rubric a img {
+	display: block;
+}
+
+#marklist .resultsRow {
+	padding-bottom: 5px;
+	border-bottom: 1px solid grey;
+}
+
+#marklist .resultsRow:last-child {
+	border-bottom: none
+}
+ul {
+	list-style: none;
+}
+	
+.highlighted.color-fff600 {
+	box-shadow: inset 0 0 0 1000px #fff600;
+}
+
+.highlighted.color-a3ff21 {
+	box-shadow: inset 0 0 0 1000px #a3ff21;
+}
+
+.highlighted.color-76ddff {
+	box-shadow: inset 0 0 0 1000px #76ddff;
+}
+
+.highlighted.color-d7afff {
+	box-shadow: inset 0 0 0 1000px #d7afff;
+}
+
+.highlighted.color-ffa6b3 {
+	box-shadow: inset 0 0 0 1000px #ffa6b3;
+}
+
+.highlighted.color-ffbc64 {
+	box-shadow: inset 0 0 0 1000px #ffbc64;
+}
+
+#scribbledListPrintContainer {
+	display: block!important
+}
+
+.scribbledItems .notes, .highlightedText span{
+	display: block;
+	word-wrap: break-word;
+	word-break: break-word;
+}
+
+#scribbledListPrintContainer ul {
+    margin: 11px 0px 10px 0px;
+    padding: 0px 20px 0px 10px;
+}
+
+#scribbledListPrintContainer ul li {
+	list-style: none;
+	color: #333;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 5px 0px;
+	font-size: 1.1em;
+	line-height: 1.4em;
+	width: auto;
+	margin-bottom: 10px;
+	padding-left: 5px;
+}
+
+#scribbledListPrintContainer ul li .highlightedText {
+	font-style: italic;
+}
+
+#scribbledListPrintContainer .allNotesLink {
+	display:none;
+}
+
+/******* Kids specific *******/	
+body#aboutThisPublicationPage.ITKE div#content ul.bookPreview, 
+div#tools_kids { 
+	display:none !important; 
+}
+#notepad {
+  min-width: 400px;
+  max-width: 960px;
+  overflow-y: auto;
+  font-size: .9em;
+  line-height: 20px;
+  color: #333333;
+}
+#notepad .scrollbar {
+	overflow-x: hidden;
+}
+#notepad ul {
+  font-size: 1.3em;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid #ccc;
+  zoom: 1;
+}
+#notepad ul:last-child {
+  border-bottom: none;
+}
+#notepad ul li {
+  margin:0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 0;
+}
+#notepad ul li.title {
+  width: 22%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+#notepad ul li.title a {
+  text-decoration: none;
+  color: #034ea0;
+}
+#notepad ul li.note,
+#notepad ul li.snippet {
+  width: 35%;
+}
+#notepad ul.scribbledItems li.note,
+#notepad ul.scribbledItems li.snippet {
+  border-left: 1px solid #efefef;
+  padding-left: 3px;
+}
+#notepad ul li.note span {
+  display: block;
+}
+#notepad ul.header {
+  border: none;
+  background-color: #efefef;
+  padding-bottom: 1px;
+  zoom: 1;
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #efefef;
+}
+#notepad ul.scribbledItems, #notepad ul.scribbledItemsHeader{
+    display:table;
+    table-layout:fixed;
+    width:100%;
+}
+#notepad ul.scribbledItems .docTitle span {
+	display: block;
+	margin-top: 10px;
+}
+#notepad ul.scribbledItems li, #notepad ul.scribbledItemsHeader li {
+	box-sizing: border-box;
+	display: table-cell;
+	vertical-align: top;
+	float: none;
+	font-size: .88em;
+	line-height: 1.43;
+	padding-left: 0;
+}
+#notepad ul.header .title {
+  background: #e5e5e5;
+  /* Old browsers */
+  background: -moz-linear-gradient(left, #e5e5e5 96%, #d3d3d3 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right top, color-stop(96%, #e5e5e5), color-stop(100%, #d3d3d3));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(left, #e5e5e5 96%, #d3d3d3 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left, #e5e5e5 96%, #d3d3d3 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(left, #e5e5e5 96%, #d3d3d3 100%);
+  /* IE10+ */
+  background: linear-gradient(to right, #e5e5e5 96%, #d3d3d3 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e5e5e5', endColorstr='#d3d3d3', GradientType=1);
+  /* IE6-9 */
+}
+.rtl {
+	text-align : right;
+	direction : rtl;
+}
+
+#marklist #marklistCollectionList .resultsRow .citationBlock .citation {
+	display: table;
+	width: 100%;
+}
+
+#marklist #marklistCollectionList .resultsRow .citationBlock .citation .myFolderNumber {
+	display: table-cell;
+	padding-left: 10px;
+	width: 35px;
+}
+
+#marklist #marklistCollectionList .resultsRow .citationBlock .citation .myFolderCitation {
+	display: table-cell;
+}
+
+/*****************************************************
+	=TableOfContents
+*****************************************************/     
+
+#etoc-links {
+	display:none;
+}
+
+.bookPreview {
+	display: table;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+  
+.atpPublicationTitle {
+	font-size: 1.6em;
+}  
+                 
+.bookPreview .bookPreviewInner {
+	vertical-align: middle;
+	padding: 10px;
+	line-height:1.5;
+}
+  
+#aboutThisPublicationPage .book img {
+	max-height: 130px;
+}  
+
+
+ul.loi_entries li {
+	list-style: none;
+}
+
+.global-header-wrapper .editor-info, .global-header-wrapper .author-info {
+	display: block;
+}
+
+.bibFullLink, button, .essay-similarArticles, .essay-similarArticlesBySubject, .essay-media, #relatedMedia, #readSpeakerParent, .essay .ParaTypeDecorator.rs_skip {
+	display: none;
+}
+
+#documentDisplay div.sideBarTitle { 
+	display:none; 
+}
+#documentDisplay div.sideBarArticle .removeDrive { 
+	display:none; 
+}
+
+.essay .poem {
+	font-style: italic;
+	padding: 10px 0 10px 40px;
+}
+
+.essay  blockquote {
+	padding: 20px;
+	background: #EAF2FC;
+	display: block;
+	margin: 10px 0;
+}
+
+.document-wrapper figure.essay-image {
+	position: relative;
+	overflow: hidden;
+	width: 1024px;
+}
+
+.document-wrapper figure.essay-image img {
+	position: static;
+	margin-top: auto;
+	margin-bottom: -320px;
+	width: 100%;
+}
+
+.document-wrapper .table .bibliography h2 .subheader {
+	font-size: 13px;
+	color: #444;
+	display: block;
+	padding: 0 0 8px 0;
+	margin: -5px 0 0 0;
+}
+
+.document-wrapper .table .content .imageGroup {
+	float: right;
+	margin-left: 30px; 
+}
+
+.document-wrapper .table .content .imageGroup img {
+	width: 100%;
+	max-width: 450px;
+	margin: 0 auto;
+	display: block;
+}
+.essay .abstract, .essay .Abstract{
+	border-radius: 5px;
+	font-size: 1.172rem;
+	color: #555;
+	font-style: italic;
+	line-height: 1.5;
+}
+
+.essay.active {
+	height: auto !important;
+}
+
+.document-text ol, .document-text ul {
+	margin:0px 20px 20px 35px
+}
+.document-text ol.decimal {
+	list-style-type: decimal;
+} 
+.document-text ol.lower-latin {
+	list-style-type: lower-latin;
+} 
+.document-text ol.upper-latin{
+	list-style-type: upper-latin;
+} 
+.document-text ol.lower-roman {
+	list-style-type: lower-roman;
+} 
+.document-text ol.upper-roman {
+	list-style-type: upper-roman;
+} 
+.stage .image img  {
+	width: 500px;
+	display: inline;
+}
+img.dviImage {
+	width: 500px;
+}
+
+#callistoImage {
+   /*  max-width: 270px;
+  	float: left; */
+   	padding-right: 30px;
+   	margin-top: 29px;
+}
+
+h1.header-h1 {
+	font-size:16px;
+}
+
+.questions ul {
+	list-style: disc;
+    margin: 15px;
+}
+
+.forReadSpeaker {
+	display: none;
+}
+
+.bookPreview .titleSecondaryInfo {
+	font-size: 0.85em;
+	font-style: italic;
+}
+
+#atp-docinfo ul li.loi_entry {
+	list-style: none;
+	float: none;
+	display:block;	
+}
+
+.Rio.Ebook .docData.entity {
+	display: none;
+}
+
+#scribbledArticles .citationFormatSelect {
+	display: none;
+}
+
+#aboutThisPublicationPage .bookPreview .bookPreviewInner .view-ebook {
+	display: none;
+}
+
+.quickFacts h2.removeDrive {
+	display:none !important;
+}
+
+.document-comment {
+	margin-bottom: 10px;
+	padding: 10px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+#infoMark, .emailInfomarkContent {
+	display: none;
+}
+
+.sideBarArticle {
+	margin: 10px 20px 0 20px;
+}
+
+#details .video-transcript .document-text {
+	display: block;
+}
+
+#videoDialog,
+.transcriptHeader,
+.videoTranscript {
+	display: none;
+}
+
+
+.directory .rubric {
+	display: inline-block;
+	width: 21%;
+	font-weight: bold;
+	vertical-align: top;
+}
+
+.directory .value {
+	display: inline-block;
+	vertical-align: top;
+	width: 78%;
+}
+
+.directory .row {
+	padding: 8px 0;
+}
+
+.directory .row ul {
+	padding: 0;
+	margin: 0;
+}
+
+.doc-pub-details .pub-linK b {
+	font-weight: normal;
+}
+
+.doc-title, #docSummary #docSummary-title {
+	font-weight: bold;
+}
+
+.document-body-text {
+	padding-top: 20px;
+}
+
+.third-party-disclaimer {
+	font-style: italic;
+	font-size: .9em;
+	padding: 15px 0;
+}
+.hide-print {
+	display: none;
+}
+
+.company-details .description span {
+	margin-top: 7px;
+	margin-bottom: 7px;
+}
+
+.company-details .row > * {
+	display: block;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.GDL #documentDisplay .item a {
+	color: #000000 !important;
+}
+
+.directory .aboutEbookLink {
+	display: none;
+}</style></head><body>
+			
+<div id="documentDisplay">
+
+	<div id="docSummary">
+			<!-- RSPEAK_START -->
+    <div class="docData doc-title">
+     	        <span class="definition cloudDriveTitle" id="docSummary-title">UBISOFT REPORTS FULL-YEAR 2017-18 SALES AND EARNINGS FIGURES</span>
+    </div>
+     <!-- RSPEAK_STOP -->
+	    <div class="docData doc-work-title-info">
+        <span class="definition">
+                    </span>
+    </div>
+	    	    	    	    <div class="docData doc-pub-details">
+        <span class="definition">
+                            <span class="pub-link"><b><i>Plus Company Updates.</i></b></span>
+                                    	 (May 18, 2018): 
+                                        <span class="citation-from"> From <em>Business Collection</em>.</span>
+                    </span>
+    </div>
+	            <div class="docData doc-copyright">
+            <span class="rubric">版权: </span>
+            <span class="definition">  
+                版权 2018 Plus Media Solutions<!-- please do not remove this comment, in place to remove the extra space
+                -->            </span>
+                                </div>
+    	</div>
+
+<!-- RSPEAK_START -->
+<div class="document-body-text highlighter-context"><!--
+						do not remove
+					--><div class="document-text"><!-- FT/IMG --><div class="ParaTypeDecorator rs_skip">全文：&nbsp;</div>
+<div class="SideNotePara"><p>  FRANCE: UBISoft Entertainment S.A. has issued the following press
+release:
+</p></div>
+<div class="SideNotePara"><p>  Today, Ubisoft released its sales and earnings figures for the
+fiscal year ended March 31, 2018.
+</p></div>
+<div class="SideNotePara"><p>  Yves Guillemot, Co-Founder and Chief Executive Officer stated,
+"Ubisoft ended the fiscal year on a very positive note, with continued
+excellent execution across the board. The Group further strengthened its
+brands thanks to the quality of its games, strong live services and a deep
+commitment to player communities. During the fourth quarter, we reached a
+record of peak concurrent users thanks to record engagement levels and
+esports viewership for Rainbow Six Siege, the successful launch of Far Cry 5
+- the second biggest launch in Ubisoft's history - and continued strong
+performance by Assassin's Creed Origins, Mario + Rabbids Kingdom Battle
+and our back-catalog titles. As a result, we have outperformed our financial
+targets, with record-high sales, digital and back-catalog revenues, and
+profitability.
+</p></div>
+<div class="SideNotePara"><p>  In the short and medium term, Ubisoft has many growth
+opportunities to tap and expects further profitability increases. Our digital
+transformation is progressing at a faster pace than we anticipated. Our
+potential in the PC and mobile markets is massive, notably in China. Finally,
+we are continuing to develop and structure our esports offering, which
+represents a significant opportunity.
+</p></div>
+<div class="SideNotePara"><p>  Over the longer term, new forms of gaming, enabled notably by
+streaming, will allow our brands to reach a much wider audience.
+Consequently, we are investing in our online services platform - which
+boasted 88 million unique active players[4] - as well as in artificial
+intelligence in order to better tailor the game experience to each
+player's profile and therefore offer them ever-richer experiences."
+</p></div>
+<div class="SideNotePara"><p>  Note
+</p></div>
+<div class="SideNotePara"><p>  Unless stated otherwise, all of the figures in this press release
+correspond to non-IFRS data, adjusted to exclude non-operating items. The
+Group presents these indicators - which are not prepared strictly in
+accordance with IFRS - as it considers that they are the best reflection of
+its operating and financial performance. The definitions of the non-IFRS
+indicators with a description of the applicable adjustments, as well as a
+reconciliation table between the IFRS consolidated income statement and the
+non-IFRS consolidated income statement are provided in an appendix to this
+press release.
+</p></div>
+<div class="SideNotePara"><p>  Income statement and key financial data
+</p></div>
+<div class="SideNotePara"><p>  In EU millions 2017-18 % 2016-17 %
+</p></div>
+<div class="SideNotePara"><p>  IFRS Sales 1,731.9 1,459.9
+</p></div>
+<div class="SideNotePara"><p>  IFRS Gross margin 1,435.1 82.9% 1,189.0 81.4%
+</p></div>
+<div class="SideNotePara"><p>  Non-IFRS R&amp;D expenses (661.1) (38.2)% (521.7) (35.7)%
+</p></div>
+<div class="SideNotePara"><p>  Non-IFRS selling expenses (335.9) (19.4)% (313.1) (21.4)%
+</p></div>
+<div class="SideNotePara"><p>  Non-IFRS G&amp;A expenses (138.0) (8.0)% (116.4) (8.0)%
+</p></div>
+<div class="SideNotePara"><p>  Total non-IFRS SG&amp;A expenses (473.9) (27.4)% (429.5) (29.4)%
+</p></div>
+<div class="SideNotePara"><p>  Non-IFRS operating income 300.1 17.3% 237.7 16.3%
+</p></div>
+<div class="SideNotePara"><p>  IFRS operating income 222.3 175.8
+</p></div>
+<div class="SideNotePara"><p>  Non-IFRS diluted EPS (in EU) 1.80 1.46
+</p></div>
+<div class="SideNotePara"><p>  IFRS diluted EPS (in EU) 1.18 0.92
+</p></div>
+<div class="SideNotePara"><p>  Non-IFRS cash flows from operating activities* 169.9 149.1
+</p></div>
+<div class="SideNotePara"><p>  R&amp;D investment expenditure** 720.2 610.5
+</p></div>
+<div class="SideNotePara"><p>  Net cash/(debt) position (548.1) (80.4)
+</p></div>
+<div class="SideNotePara"><p>  * Based on the consolidated cash flow statement for comparison
+with other industry players (not audited)
+</p></div>
+<div class="SideNotePara"><p>  ** Including royalties but excluding future commitments
+</p></div>
+<div class="SideNotePara"><p>  Sales
+</p></div>
+<div class="SideNotePara"><p>  Full-year sales for 2017-18 came to EU1,731.9 million,
+outstripping the Group's target of around EU1,640.0 million and up
+EU18.6% (or 22.9% at constant exchange rates[5]) compared with the EU1,459.9
+million recorded for 2016-17.
+</p></div>
+<div class="SideNotePara"><p>  Sales in the fourth quarter of 2017-18 - a period that saw the
+release of one major game, Far Cry 5 - totaled EU540.7 million, exceeding the
+target of approximately EU449.0 million. This fourth-quarter sales figure
+represents a 16.6% decrease (or 11.2% at constant exchange rates5) versus the
+EU648.6 million recorded for the same period of 2016-17, when two major games
+were released (Ghost Recon Wildlands and For Honor(r)).
+</p></div>
+<div class="SideNotePara"><p>  Main income statement items[6]
+</p></div>
+<div class="SideNotePara"><p>  Gross margin rose to 82.9% of sales and EU1,435.1 million in
+absolute value terms (compared with 81.4% and EU1,189.0 million in 2016-17).
+</p></div>
+<div class="SideNotePara"><p>  Non-IFRS operating income came in at EU300.1 million, up 26.2% on
+the EU237.7 million recorded for 2016-17.
+</p></div>
+<div class="SideNotePara"><p>  Non-IFRS net income came in at EU220.6 million, representing
+non-IFRS diluted earnings per share ("EPS") of EU1.80, compared
+with non-IFRS net income of EU174.3 million and non-IFRS diluted EPS of
+EU1.46 for 2016-17.
+</p></div>
+<div class="SideNotePara"><p>  IFRS net income for 2017-18 came to EU139.5 million, representing
+IFRS diluted EPS of EU1.18 versus IFRS net income of EU107.8 million and IFRS
+diluted EPS of EU0.92 in 2016-17.
+</p></div>
+<div class="SideNotePara"><p>  Main cash flow statement[7] and balance sheet items
+</p></div>
+<div class="SideNotePara"><p>  Non-IFRS cash flows from operating activities represented a net
+inflow of EU169.9 million against EU149.1 million in 2016-17. This increase
+reflects higher non-IFRS cash flow from operations (EU214.9 million versus
+EU110.2 million in 2016-17) and a EU45.0 million increase in non-IFRS working
+capital requirement (EU38.9 million decrease in 2016-17).
+</p></div>
+<div class="SideNotePara"><p>  At March 31, 2018, Ubisoft had net debt7 of EU548.1 million versus
+EU80.4 million one year earlier. This rise mainly reflects the purchases and
+binding purchase commitments of own shares for EU411.5 million during the
+fiscal year and a EU100 million deposit related to a total return swap with
+settlement at maturity for part of the share previously owned by Vivendi. As
+a reminder the Company free cash flow target stands at around EU300.0 million
+in 2018-19.
+</p></div>
+<div class="SideNotePara"><p>  Outlook
+</p></div>
+<div class="SideNotePara"><p>  Full-year 2018-19
+</p></div>
+<div class="SideNotePara"><p>  Ubisoft is standing by its 2018-19 targets for non-IFRS operating
+income and free cash flow. As announced on May 9, 2018, in line with the
+recommendations of the European regulators (ESMA) and the French Financial
+Markets Authority (AMF), Ubisoft is today introducing a new target for sales
+calculated in accordance with IFRS 15 as well as a new indicator called
+"Net Bookings" which corresponds to its sales figure as calculated
+prior to the Company's application of IFRS 15 (see Press Release in
+appendices):
+</p></div>
+<div class="SideNotePara"><p>  IFRS 15 sales of around EU2,000.0 million[8]
+</p></div>
+<div class="SideNotePara"><p>  Net bookings of approximately EU2,050.0 million compared with the
+previous target of EU2,100.0 million, calculated based on:
+</p></div>
+<div class="SideNotePara"><p>  The release of three new AAA games (The Crew(r) 2, The Division(r)
+2 and an unannounced franchise title) representing 19 million units (vs the
+four AAA releases and 23 million units previously announced). In line with
+previous practices and in view of the acceleration of our digital
+transformation, growth in back-catalog sales and excellent momentum of recent
+releases, Ubisoft has decided to give itself more time to develop Skull &amp;
+BonesTM to offer players an even more engaging experience. Skull &amp; Bones
+is now scheduled for release in 2019-20.
+</p></div>
+<div class="SideNotePara"><p>  Digital revenue is expected to represent around 65% of net
+bookings (compared with approximately 60% previously) and PRI should
+represent around 30% of net bookings (versus the previous target of over
+25%).
+</p></div>
+<div class="SideNotePara"><p>  Back-catalog sales are forecasted to represent approximately 50%
+of net bookings (versus the previous target of over 45%).
+</p></div>
+<div class="SideNotePara"><p>  Non-IFRS operating income (based on net bookings) of around
+EU440.0 million.
+</p></div>
+<div class="SideNotePara"><p>  Free cash flow of approximately EU300.0 million.
+</p></div>
+<div class="SideNotePara"><p>  First-quarter 2018-19
+</p></div>
+<div class="SideNotePara"><p>  For first-quarter 2018-19, the Group expects IFRS 15 sales to
+amount to around EU350.0 million8 and net bookings to total approximately
+EU350.0 million (compared with EU202.0 million for the same period of
+2017-18).
+</p></div>
+<div class="SideNotePara"><p>  Recent significant events
+</p></div>
+<div class="SideNotePara"><p>  Sale of Vivendi's entire stake in Ubisoft, with the
+transaction structured as follows:
+</p></div>
+<div class="SideNotePara"><p>  New long-term investors in Ubisoft, with Ontario Teachers'
+Pension Plan and Tencent acquiring 3,787,878 and 5,591,469 Ubisoft shares
+respectively.
+</p></div>
+<div class="SideNotePara"><p>  Share buybacks by Ubisoft: Ubisoft has undertaken to buy back
+7,590,909 of its own shares from Vivendi through a structured transaction
+taking the form of (i) a forward sale of Ubisoft shares by Vivendi to Credit
+Agricole Corporate and Investment Bank (CACIB), and (ii) a mechanism
+involving Ubisoft's forward buyback of its own shares from CACIB,
+enabling Ubisoft to defer its buybacks over the period from 2018 to 2021.
+</p></div>
+<div class="SideNotePara"><p>  Purchase of Ubisoft shares by Guillemot Brothers SE: Guillemot
+Brothers SE has undertaken to purchase 3,030,303 Ubisoft shares.
+</p></div>
+<div class="SideNotePara"><p>  An accelerated private placement of 13,376,620 Ubisoft shares
+among qualified investors.
+</p></div>
+<div class="SideNotePara"><p>  Signature of a strategic partnership agreement with Tencent:
+Ubisoft has signed a strategic partnership agreement with Tencent which will
+increase Ubisoft games' exposure and engagement in China and enable the
+Company to reach millions of new players on mobile and PC.
+</p></div>
+<div class="SideNotePara"><p>  Acquisition of 1492 Studio, a game development studio specialized
+in the development of free-to-play episodic and interactive stories on
+mobile.
+</p></div>
+<div class="SideNotePara"><p>  Acquisition of Blue Mammoth Games, a game development studio
+specialized in free-to-play multi-player games on PC and the PS4.
+</p></div>
+<div class="SideNotePara"><p>  Announcement of new studios openings in India, Ukraine and Canada:
+The Mumbai and Odessa studios will be focused on jointly developing AAA games
+and post-release game support. The Winnipeg studio will play a strategic role
+in jointly developing AAA titles and will be dedicated to developing tools
+and technology.
+</p></div>
+<div class="SideNotePara"><p>  Contact
+</p></div>
+<div class="SideNotePara"><p>  Investor Relations
+</p></div>
+<div class="SideNotePara"><p>  Jean-Benoit Roquette
+</p></div>
+<div class="SideNotePara"><p>  SVP Investor Relations
+</p></div>
+<div class="SideNotePara"><p>  + 33 1 48 18 52 39
+</p></div>
+<div class="SideNotePara"><p>  Jean-benoit.roquette@ubisoft.com
+</p></div>
+<div class="SideNotePara"><p>  Press Relations
+</p></div>
+<div class="SideNotePara"><p>  Michael Burk
+</p></div>
+<div class="SideNotePara"><p>  Senior Director of Corporate Public Relations
+</p></div>
+<div class="SideNotePara"><p>  + 33 1 48 18 24 03
+</p></div>
+<div class="SideNotePara"><p>  michael.burk@ubisoft.com
+</p></div>
+<div class="SideNotePara"><p>  Disclaimer
+</p></div>
+<div class="SideNotePara"><p>  This statement may contain estimated financial data, information
+on future projects and transactions and future business results/performance.
+Such forward-looking data are provided for estimation purposes only. They are
+subject to market risks and uncertainties and may vary significantly compared
+with the actual results that will be published. The estimated financial data
+have been presented and approved by the Board of Directors on 05/17/18 and
+have not been audited by the Statutory Auditors. (Additional information is
+specified in the most recent Ubisoft Registration Document filed on July 21,
+2017 with the French Financial Markets Authority (l'Autorite des Marches
+Financiers)).
+</p></div>
+<!--14214508--></div></div><!-- meta:id:539222276-->
+
+<!-- RSPEAK_STOP -->
+<div class="rs_skip">
+	
+
+<div class="citationWrapper">
+	<div id="document-sourcecitation" class="removeBreak">
+		<span class="small" id="SourceCitation">
+			<b>来源引文</b>&nbsp;&nbsp;
+							（MLA 第 8 版<sup></sup>）
+						<span class="citation IAC Gale">
+				<span class="citation Generated"><div style="text-indent: -2em; padding-left: 2em" class="ct_Newspaper"><div>"UBISOFT REPORTS FULL-YEAR 2017-18 SALES AND EARNINGS FIGURES." <i>Plus Company Updates</i>, 18 May 2018. <i>Business Collection</i>, http://link.galegroup.com/apps/doc/A539222276/GPS?u=sichuan&amp;sid=GPS&amp;xid=6c457c0f. Accessed 26 June 2018.</div></div></span>
+			</span>
+		</span>
+	</div>
+	<br>
+		<div id="document-tgnumber">
+		<p>
+			<b>Gale 文章编号： </b>
+			<span class="tgnumber">GALE|A539222276</span>
+		</p>
+	</div>
+</div>
+				</div>
+</div> 
+
+
+			</body></html>

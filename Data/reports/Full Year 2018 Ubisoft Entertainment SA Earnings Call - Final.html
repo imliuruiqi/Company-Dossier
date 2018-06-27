@@ -1,0 +1,1626 @@
+<html><head><meta http-equiv="Content-Type" content="text/html ; charset=UTF-8"></meta><title>Download Document</title><style type="text/css">@charset "utf-8";
+
+
+body { font-size:16px !important; font-family: Arial, Helvetica, sans-serif; background: #FFFFFF !important; }
+#documentDisplay{
+	background: #FFFFFF !important;
+}
+a { text-decoration:none; color:#444 !important; }
+img { border:none; }
+
+/***** MAIN PAGE PRINT STYLES *****/
+img#img-for-mobile {
+	display: none;
+}
+
+#ATP .indexBody #bob-index ul #document-header h3 {
+	float: none;
+}
+p.bookcover a#js-book-cover-anchor img, #callistoImage, #documentDisplay dl { display:block !important; }
+#docviewAside ul {clear:both;margin:0px;padding:0px;}
+#docviewAside ul.bookPreview, #docviewAside ul.bookPreview li { list-style:none; display:block; }
+#docviewAside ul.bookPreview li.book { float:left; margin:0px; padding:0px 15px 0px 0px; }
+#docviewAside ul.bookPreview li.title { font-size:1.3em; }
+#docviewAside ul.bookPreview li img { margin:0px; height:auto; max-height:120px; width:90px; min-width:90px; }
+section#docTextView { width:auto; }
+header, #docTextView div.docTextHeader, #docTextView .docBody, div.resultsHeader { border:none !important; }
+#contentcontainer #documentDisplay span.pageBreak { font-family:Times, "Times New Roman", serif; float: right;
+	font-size:85%; font-style:italic; padding:10px 0; text-align:right; width: 100%; }
+#ATP .ATPBody {padding:0px; margin:0px; float:left;}
+#atp-docinfo ul{list-style:none;clear:both;font-size:85%;padding:0px;margin:0px;}
+#atp-docinfo ul li{border-top:1px solid #aaa;margin:0px 0px 0px 0px;padding:5px 0px 5px 0px;display:inline-block;zoom:1;*display:inline;float:left;width:auto;line-height:1.25em;}
+#atp-docinfo ul li.title{width:90px;min-width:90px;max-width:90px;font-size:85%;}
+#atp-docinfo ul li.description{width:520px;min-width:520px;max-width:520px;padding-left:10px;font-size:85%;}
+#atp-docinfo ul li p{margin:0;color:#555;line-height:1.25em;font-size:85%;}
+#atp-docinfo tr{font-size:85%;padding:0px;margin:0px;}
+#atp-docinfo td{border-top:1px solid #aaa;margin:0px 0px 0px 0px;padding:5px 0px 5px 0px;display:inline-block;zoom:1;*display:inline;float:left;width:auto;line-height:1.25em;font-size:85%;}
+#atp-docinfo td.title{width:90px;min-width:90px;max-width:90px;font-size:85%;}
+#atp-docinfo td.description{width:520px;min-width:520px;max-width:520px;padding-left:10px;font-size:85%;}
+#atp-docinfo td p{margin:0;color:#555;line-height:1.25em;font-size:85%;}
+#atp-docinfo div#atpImage {clear:both;width:135px;}
+#ATP .TOCBody div#atpImage, #ATP .indexBody div#atpImage {clear:both;float:left;left:0px;margin:5px 5px 5px 0px;padding:5px;position:static;top:0px;width:115px;}
+#atp-docinfo .TOCBody{display:block;float:left;clear:both;border: none;}
+#atp-docinfo .TOCBody ul li {display:block;float:left;clear:both;border: none;}
+#atp-docinfo .TOCBody h3{color:#444;float:left;border-bottom:3px double #EAEAEA;font-size:1.2em;font-weight:normal;margin-bottom:15px;padding:0px 0px 5px 0px;clear:both;width:600px;}
+#atp-docinfo .TOCBody ul.simpleTree {color:#444;margin:0px 20px 20px 11px;padding:0px 0px 0px 10px;font-size:85%;clear:both;}
+#atp-docinfo .TOCBody ul.simpleTree li {color:#444;margin:0px 0px 0px 0px;padding:0px 0px 5px 0px;line-height:1.25em; width:auto;}
+#atp-docinfo .TOCBody ul.simpleTree li.branch {list-style-image: url("../images/icon_arrow_right.png"); }
+#atp-docinfo .TOCBody ul.simpleTree li.branch span {cursor:pointer;}
+#atp-docinfo .TOCBody ul.simpleTree li.expanded {list-style-image:url("../images/icon_arrow_down.png");}
+#atp-docinfo .TOCBody ul.simpleTree li.leaf {list-style:none;}
+#atp-docinfo .TOCBody ul.simpleTree li ul {margin:0px 20px 0px 11px;padding:3px 0px 0px 10px;}
+#atp-docinfo .TOCBody ul.simpleTree li ul li {line-height:1.25em;padding:0px 0px 3px 0px;margin:0px;}
+#atp-docinfo .TOCBody ul.simpleTree a, #ATP .TOCBody ul.simpleTree a:visited {color:#444;}
+#atp-docinfo .indexBody{display:block;float:left;clear:both;margin:0px;padding:0px;}
+#atp-docinfo .indexBody ul li {float:left;border: none;}
+#atp-docinfo .indexBody ul li.term, #atp-docinfo .indexBody ul li.sectionBreak {display:block;float:left;clear:both;border: none;}
+#atp-docinfo .indexBody #bob-index ul { list-style:none; font-size:85%; clear:both;margin:0px;padding:0px; }
+#atp-docinfo .indexBody #bob-index ul #document-header h3 {color:#444;float:left;border-bottom:3px double #EAEAEA;font-size:1.6em;font-weight:normal;margin-bottom:15px;padding:0px 0px 5px 0px;clear:both;width:600px;}
+#atp-docinfo .indexBody #bob-index ul p { color:#555;line-height:1.5em;margin:0.2em 0 1em;font-size:85%;clear:both; }
+#atp-docinfo .indexBody #bob-index ul li { list-style:none;color:#444; }
+#atp-docinfo .indexBody #bob-index ul li ul { margin-left:10px;color:#444; }
+#atp-docinfo .indexBody #bob-index ul li span { font-weight:bold; }
+#atp-docinfo .indexBody #bob-index ul li ul.ref { margin-left:5px; margin-bottom:9px;color:#444; }
+#atp-docinfo .indexBody #bob-index ul li ul.ref li { color:#444;display:inline-block; zoom:1; *display:inline; padding-left:5px; margin-right:5px; border-left:1px solid #aaa; }
+#atp-docinfo .indexBody #bob-index ul li ul.ref li.first { border-left:0px solid #aaa;margin-left:0px;padding-left:0px; }
+#atp-docinfo .indexBody .loiResults { width:550px;border-top:1px solid #ccc;float:left;clear:both;margin:0px;font-size:85%;display:block; }
+#atp-docinfo .indexBody .loiResults div { border-bottom:1px solid #ccc; font-size:85%;clear:both;float:left; }
+#atp-docinfo .indexBody .loiResults div.header { background-color:#f2f2f2; font-weight:bold; }
+#atp-docinfo .indexBody .loiResults div div { border-bottom:none; padding:10px 10px 10px 20px;height:auto;clear:none;float:left; }
+#atp-docinfo .indexBody .loiResults div div.loiTitle { width:400px; border-right:1px solid #ccc; }
+#atp-docinfo .indexBody .loiResults div div.loiTitle a { text-decoration:none; color:#555; }
+#atp-docinfo .indexBody .loiResults div div.loiTitle span a { padding-left:4px; }
+#atp-docinfo .indexBody .loiResults div div.loiType { width:97px; text-align:center; padding-left:10px; }
+#atp-docinfo .indexBody #bob-index ul li.sectionBreak { 
+	font-weight: bold;
+}
+
+/*****  POPUP MODAL WINDOW STYLES  *****/
+	/*****  POPUP MODAL WINDOW HEADER  *****/
+	div#header{background:#fff url('../images/CL_logo.png') no-repeat 540px 6px;height:38px;padding:5px 15px 0px 0px;}
+		#header div#locationBranding, #header a.accessFeature, #printPage #header a.accessFeature { display:none; }
+	/***** PRINT PAGE STYLES *****/
+	#printPage { background-color:#fff; font-family:Times, "Times New Roman", serif; }
+		#printPage #header {  }
+		#printPage #footer { display:none; }
+		#printPage #contentcontainer { width:auto; padding:10px 20px 20px 10px; }
+		/***** PRINT PAGE - DOCUMENT DISPLAY PAGE STYLES *****/
+		#printPage #contentcontainer #documentDisplay {  }
+			#printPage #contentcontainer #documentDisplay blockquote { font-size:1.25em; line-height:1.1em; margin-top:0px; padding-top:0px; }
+			#printPage #contentcontainer #documentDisplay #docSummary { margin:0px 0px 5px 0px; }
+				#printPage #contentcontainer #documentDisplay #docSummary div.docData { margin:0px 0px 0px 0px; }
+				#printPage #contentcontainer #documentDisplay #docSummary span.rubric { display:none; }
+				#printPage #contentcontainer #documentDisplay #docSummary span#docSummary-title { 
+					color:#505050;
+					font-size:2.4em;
+				    font-family:Times, "Times New Roman", serif;
+				    line-height:1.1em;
+				    margin:0px 0px 3px 0px;
+				    display:block;
+					}
+				#printPage #contentcontainer #documentDisplay #docSummary span.definition { font-family:Times, "Times New Roman", serif; }
+				#printPage #contentcontainer #documentDisplay #docSummary span.definition b { font-size:1.25em; font-weight:normal; display:block; font-family:Times, "Times New Roman", serif; }
+				#printPage #contentcontainer #documentDisplay #docSummary span.definition i { font-family:Times, "Times New Roman", serif; }
+				#printPage #contentcontainer #documentDisplay #docSummary span#docSummary-authors { font-family:Times, "Times New Roman", serif; display:block; margin-bottom:8px; }
+				#printPage #contentcontainer #documentDisplay #docSummary span#docSummary-doctype { font-family:Arial, Helvetica, sans-serif; font-size:.8em; font-weight:bold; text-transform:uppercase; }
+				#printPage #contentcontainer #documentDisplay #docSummary #document-copyright b { display:none; }
+			#printPage #contentcontainer #documentDisplay div#atpImage { margin:0px 0px 5px 0px; }
+			#printPage #contentcontainer #documentDisplay div.document-text { font-family:Times, "Times New Roman", serif; margin:20px 0px 0px 0px; }	
+				#printPage #contentcontainer #documentDisplay span.pageBreak { 
+					font-family:Times, "Times New Roman", serif; 
+					float: right;
+					font-size: 0.9em;
+					font-style: italic;
+					padding: 10px 0;
+					text-align: right;
+					width: 100%; 
+					}
+				#printPage #contentcontainer #documentDisplay div.document-text ul { list-style:none; }
+					#printPage #contentcontainer #documentDisplay div.document-text ul li { list-style:none; padding:10px 20px 10px 10px; }
+				#printPage #contentcontainer #documentDisplay div.document-text ol { margin:0px 20px 10px 30px; }
+					#printPage #contentcontainer #documentDisplay div.document-text ol li { padding:2px 0px 3px 2px; } 
+				#printPage #contentcontainer #atpContainer, 
+				#printPage #contentcontainer #atpContainer #atp-title span,
+				#printPage #contentcontainer #atpContainer #atp-title span.title,
+				#printPage #contentcontainer #atpContainer #atp-title span.author,
+				#printPage #contentcontainer #atpContainer #atp-docinfo,
+				#printPage #contentcontainer #atpContainer #atp-docinfo table,
+				#printPage #contentcontainer #atpContainer #atp-docinfo tr,
+				#printPage #contentcontainer #atpContainer #atp-docinfo td,
+				#printPage #contentcontainer #documentDisplay span.hitHighlite,
+				#printPage #contentcontainer #documentDisplay #document-tgnumber,
+				#printPage #contentcontainer #documentDisplay #document-tgnumber p,
+				#printPage #contentcontainer #documentDisplay #document-tgnumber b,
+				#printPage #contentcontainer #documentDisplay #document-tgnumber span,
+				#printPage #contentcontainer #documentDisplay #document-tgnumber span.tgnumber,
+				#printPage #contentcontainer #documentDisplay #SourceCitation,
+				#printPage #contentcontainer #documentDisplay #SourceCitation b,
+				#printPage #contentcontainer #documentDisplay #SourceCitation .citation,
+				#printPage #contentcontainer #documentDisplay #SourceCitation .ct_Book,
+				#printPage #contentcontainer #documentDisplay #SourceCitation i,
+				#printPage #contentcontainer #documentDisplay #SourceCitation div,
+				#printPage #contentcontainer #documentDisplay span.caption,
+				#printPage #contentcontainer #documentDisplay h1,
+				#printPage #contentcontainer #documentDisplay h2,
+				#printPage #contentcontainer #documentDisplay h3,
+				#printPage #contentcontainer #documentDisplay h4,
+				#printPage #contentcontainer #documentDisplay h5,
+				#printPage #contentcontainer #documentDisplay h1 i,
+				#printPage #contentcontainer #documentDisplay h2 i,
+				#printPage #contentcontainer #documentDisplay h3 i,
+				#printPage #contentcontainer #documentDisplay h4 i,
+				#printPage #contentcontainer #documentDisplay h5 i,
+				#printPage #contentcontainer #documentDisplay h1 small,
+				#printPage #contentcontainer #documentDisplay h2 small,
+				#printPage #contentcontainer #documentDisplay h3 small,
+				#printPage #contentcontainer #documentDisplay h4 small,
+				#printPage #contentcontainer #documentDisplay h5 small,
+				#printPage #contentcontainer #documentDisplay h1 span,
+				#printPage #contentcontainer #documentDisplay h2 span,
+				#printPage #contentcontainer #documentDisplay h3 span,
+				#printPage #contentcontainer #documentDisplay h4 span,
+				#printPage #contentcontainer #documentDisplay h5 span,
+				#printPage #contentcontainer #documentDisplay ol,
+				#printPage #contentcontainer #documentDisplay ol li,
+				#printPage #contentcontainer #documentDisplay ol li b,
+				#printPage #contentcontainer #documentDisplay ol li i,
+				#printPage #contentcontainer #documentDisplay ol li span,
+				#printPage #contentcontainer #documentDisplay ul,
+				#printPage #contentcontainer #documentDisplay ul li,
+				#printPage #contentcontainer #documentDisplay ul li b,
+				#printPage #contentcontainer #documentDisplay ul li i,
+				#printPage #contentcontainer #documentDisplay ul li span,
+				#printPage #contentcontainer #documentDisplay div.SideNotePara,
+				#printPage #contentcontainer #documentDisplay div.SideNotePara p,
+				#printPage #contentcontainer #documentDisplay div.SideNotePara p small,
+				#printPage #contentcontainer #documentDisplay div.SideNotePara p b,
+				#printPage #contentcontainer #documentDisplay div.SideNotePara p i { font-family:Times, "Times New Roman", serif; }
+					#printPage #contentcontainer #documentDisplay div.document-text #document-header h1 span.citation-title { display:none; }
+				#printPage #contentcontainer #documentDisplay span.caption { font-style:italic; }
+				#printPage #contentcontainer #documentDisplay h2,
+				#printPage #contentcontainer #documentDisplay h3,
+				#printPage #contentcontainer #documentDisplay h4 { font-size:1.8em; padding:10px 0px 0px 0px; text-transform:capitalize; }
+				#printPage #contentcontainer #documentDisplay h3 { color:#505050; font-size:1.5em; border-bottom:none; margin:0px; }
+				#printPage #contentcontainer #documentDisplay h4 { font-size:1.2em; font-weight:bold; }
+				#printPage #contentcontainer #documentDisplay h5 { font-size:1em; font-weight:bold; }
+				#printPage #contentcontainer #documentDisplay div.document-text #document-header h1 { font-size:1.6em; }
+			#printPage #contentcontainer #documentDisplay #document-sourcecitation {  }
+			#printPage #contentcontainer #documentDisplay #document-tgnumber {  }
+			#printPage #contentcontainer #documentDisplay #relatedDocumentIndex { display:none; }
+			#printPage #contentcontainer #documentDisplay #document-sourcecitation {  }
+			#printPage #contentcontainer #documentDisplay #document-tgnumber {  }
+			#printPage #contentcontainer #documentDisplay div.sideBarTitle { display:none; }
+			#printPage #contentcontainer #documentDisplay div.sideBarArticle p { display:block; }
+			#printPage #contentcontainer #documentDisplay div.sideBarArticle div p { display:block; }
+		/***** PRINT PAGE - ATP PAGE STYLES *****/
+		#printPage #contentcontainer #atpContainer {  }
+			#printPage #contentcontainer #atpContainer #atp-title { margin:0px 0px 5px 0px; }
+			#printPage #contentcontainer #atpContainer #atp-title span {  }
+			#printPage #contentcontainer #atpContainer #atp-title span.title { margin:0px 0px 5px 0px; display:block; font-size:2em; font-style:italic; }
+			#printPage #contentcontainer #atpContainer #atp-title span.author {  }
+			#printPage #contentcontainer #atpContainer #atp-docinfo {  }
+			#printPage #contentcontainer #atpContainer #atp-docinfo table {  }
+			#printPage #contentcontainer #atpContainer #atp-docinfo tr {  }
+			#printPage #contentcontainer #atpContainer #atp-docinfo td {  }
+		/***** PRINT PAGE - SAVED ARTICLES PAGE STYLES *****/
+		#printPage #contentcontainer #marklist { width:auto; }
+			#printPage #contentcontainer #marklist #marklist-printform { width:auto; }
+				#marklist-printform #marklist-formcontainer { width:auto; margin:0px 0px 30px 0px; } /* marklist header */
+					#marklist-printform #marklist-formcontainer div.form_element { margin:10px 0px 10px 0px; }
+						#marklist-printform #marklist-formcontainer div.form_element #form_buttons { padding:0px 0px 10px 7px; }
+							#marklist-formcontainer div.form_element #form_buttons #form_cancel a, 
+							#marklist-formcontainer div.form_element #form_buttons #form_print a,
+							#marklist-printform div.row div#TopOfPageLink a {
+								background: url("../images/readerToggle_bg_off.png") repeat-x 0px 0px #f8f8f8;  
+								font-family:Arial, Helvetica, sans-serif; 
+								font-size:1em; 
+								color:#555; 
+								padding:3px 10px 3px 10px; 
+								margin:0px 3px 0px 3px;
+								text-decoration:none; 
+								border:1px solid #ccc;
+								line-height:2em;
+								border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px;
+								}
+								#marklist-formcontainer div.form_element #form_buttons #form_cancel a:hover, 
+								#marklist-formcontainer div.form_element #form_buttons #form_print a:hover,
+								#marklist-printform div.row div#TopOfPageLink a:hover { text-decoration:none; }
+								#marklist-formcontainer div.form_element #form_buttons #form_cancel a:active, 
+								#marklist-formcontainer div.form_element #form_buttons #form_print a:active,
+								#marklist-printform div.row div#TopOfPageLink a:active  { background: url("../images/readerToggle_bg_active.png") repeat-x 0px -15px #f8f8f8; }
+					#marklist-printform #marklist-formcontainer div.row span.label { 
+						font-family:Times, "Times New Roman", serif; 
+						text-transform:capitalize;
+						border-bottom:3px double #EAEAEA; 
+						font-size:1.6em; 
+						margin:5px 0px 10px 0px; 
+						padding:10px 0px 5px 0px;
+						display:block;
+						}
+					#marklist-printform #marklist-formcontainer ul { margin:3px 0px 6px 0px; list-style:none; }
+						#marklist-printform #marklist-formcontainer ul li { padding:2px 20px 4px 0px; list-style:none; }
+							#marklist-printform #marklist-formcontainer ul li label { padding-right:5px; font-weight:bold; }
+							#marklist-printform #marklist-formcontainer ul li span { padding-right:5px; }
+					#marklist-printform #marklist-formcontainer input[type="radio"] { float:left; margin:2px 5px 0px 2px; }
+					#marklist-printform #marklist-formcontainer div.label { display:none; }
+					#marklist-printform #marklist-formcontainer p#citation-note { padding:5px 40px 0px 10px; line-height:1.4em; } 
+						p#citation-note span.citation-note-bold { font-weight:bold; margin-right:5px; }
+				#marklist-printform .row { width:auto; }
+					#marklist-printform .row .marklistCollection { width:auto; }
+						#marklist-printform .row .marklistCollection h2 { 
+							font-family:Times, "Times New Roman", serif; 
+							text-transform:capitalize;
+							border-bottom:3px double #EAEAEA; 
+							font-size:1.6em; 
+							margin:5px 0px 10px 0px; 
+							padding:10px 0px 5px 0px;
+							display:block;
+							}
+						#marklist-printform .row .marklistCollection div.marklistCollection-Heading, 
+						#marklist-printform .row .marklistCollection div.resultsRow { border:1px solid #ccc; padding:8px; width:670px; margin:0px 0px -1px 12px; float:left; }
+						#marklist-printform .row .marklistCollection div.floatstop { display:none; }
+						#marklist-printform .row .marklistCollection div.resultsRow:after { clear:both; content:"."; display:block; height:0; visibility:hidden; }
+						#marklist-printform .row .marklistCollection div.marklistCollection-Heading { background-color:#f2f2f2; }
+							#marklist-printform .row .marklistCollection div.marklistCollection-Heading ul, 
+							#marklist-printform .row .marklistCollection div.resultsRow ul { list-style:none; }
+							#marklist-printform .row .marklistCollection div.marklistCollection-Heading label, 
+							#marklist-printform .row .marklistCollection div.resultsRow label { padding:0px; }
+							#marklist-printform .row .marklistCollection div.marklistCollection-Heading input[type="checkbox"], 
+							#marklist-printform .row .marklistCollection div.resultsRow input[type="checkbox"] { margin:2px 10px 0px 10px; }
+							#marklist-printform .row .marklistCollection div.marklistCollection-Heading span, 
+							#marklist-printform .row .marklistCollection div.resultsRow span { display:block; float:left; }
+							#marklist-printform .row .marklistCollection div.resultsRow div.marklistCollection-printselect,
+							#marklist-printform .row .marklistCollection div.marklistCollection-Heading div.marklistCollection-printall { width:52px; text-align:center; float:left; }
+							#marklist-printform .row .marklistCollection div.marklistCollection-Heading span.marklistCollectionName { font-weight:bold; margin:7px 3px 0px 150px; }
+							#marklist-printform .row .marklistCollection div.marklistCollection-Heading span.marklistCollectionSize { font-weight:bold; margin:7px 40px 0px 0px; }
+							#marklist-printform .row .marklistCollection div.marklistCollection-Heading span.marklist_doctype { font-weight:bold; width:175px; text-align:center; margin-top:7px; float:right !important; }
+							#marklist-printform .row .marklistCollection div.resultsRow div.citationBlock { width:400px; float:left; padding:0px 20px; }
+								#marklist-printform .row .marklistCollection div.resultsRow div.citationBlock span { display:inline; float:none; margin-right:2px; }
+								#marklist-printform .row .marklistCollection div.resultsRow div.citationBlock span.title { display:block; width:400px;font-size:1.1em;font-weight:bold; }
+								#marklist-printform .row .marklistCollection div.resultsRow div.citationBlock span.citation-publication { font-style:italic; }
+							#marklist-printform .row .marklistCollection div.resultsRow ul.doctype { text-align:center; width:175px; float:right; }
+								#marklist-printform .row .marklistCollection div.resultsRow ul.doctype li { margin:0px; }
+									#marklist-printform .row .marklistCollection div.resultsRow ul.doctype li span { display:inline; float:none; }
+						#marklist-printform div.row div#TopOfPageLink { margin:20px 20px 20px 10px; float:left; }
+						.markListItem {margin: 15px 0;}
+						.markListItem.pageBreak { page-break-before: always;}
+						
+		#printPage #contentcontainer #footer { display:none; }	
+#translatePage #contentcontainer #documentBody div#rs_div, 
+#translatePage #contentcontainer #documentBody div#readspeaker_button,
+#translatePage #globalTools,
+#translatePage #contentcontainer #documentBody div.readData { display:none; }
+#translatePage { font-size:150%; clear:both; width:100%; float:left; }
+#translatePage #contentcontainer #documentDisplay #docSummary span.rubric { display:none;  } 
+#translatePage #contentcontainer #documentDisplay #docSummary span.definition b { display:none; }
+#translatePage #contentcontainer #documentBody #translate-disclaimer p a { padding-left: 1em; }
+
+/***** MAIN PAGE PRINT STYLES - DISPLAY NONE *****/
+#branding, header, div.lines a.library-links, #logo, #inputFieldValue_0, #quicksearch, #quicksearchbutton, div.advancedSearch,
+div.advancedSearch a, #loginTrigger, ul#loginToggle_container, nav, ul#searchLinks, ul#tools, #docViewNav, #docViewNavBottom, 
+div.prevNextHeader, div.prevNextHeader ul, #docViewNav ul.readerToggle, #docViewNav ul.readerToggle li, #docViewNav ul.readerToggle li.text,
+#docViewNav ul.readerToggle li.reader, #pagination, .markSavedDocs, #limiters, #paginationFooter, div#tools_GVRL_legacy, 
+div#relatedDocumentIndex, .resultsBody ul li ul, div.ATPHeader, #docviewAside div.searchBook, div.searchBook, div.limiter_box,
+#docviewAside div#relatedSubjects, .TOCBody #etoc-selector, #searchResultsPage-iteratorBar_1, #searchResultsPage-iteratorBar_2, 
+#bob-body, #bob-search, footer, dl, #contentcontainer #documentDisplay span.pageBreak a, ul.readerToggle li.viewAs, ul.readerToggle li.text, ul.readerToggle li.reader,
+#documentDisplay #relatedDocumentIndex,	
+#documentBody .iteratorBar-noPds,
+#documentBody #documentDisplay #docSummary span.rubric,
+#documentBody #documentDisplay #docSummary #document-copyright b, div.readspeaker.readData, #readspeakerContainer, #docSummary-librarylinks,
+#etocContainer, #scribbledListContainer, #contentToolsLinks, #docTools, .notesEdit, .notesAddEdit, .toggleMain, .toggleTools, #marklist ul.options,
+.citationBlock .documentLinks, .marklist-removeAll-gtx, #marklist #periodical_wrapper #savedArticlesContent strong, #atp .coverageExceptions,
+ #atp .issueYears, .stackedHeader, #subjectLinks, .citationMetadata .pubInfoTitle, #backToResults, .similarArticlesAnchor,
+ .slick-prev, .slick-next,
+ #atpContainer .coverageExceptions, #atpContainer .issueYears, #docTools-pdf, .dviEtocHeader,.viewDvi, .viewText, .SMPS #docSummary, #toggleDisclaimer, #helpContent, #videoDialogContainer
+	{ display:none !important; }
+
+#docSummary-orc div.first {
+	margin-left: 0px;
+}
+
+#docSummary-orc div.orcLink {
+	margin-left: 25px;
+} 
+
+#docSummary-orc .rubric {
+	vertical-align: middle;
+}
+
+#docSummary-orc .rubric a {
+	text-indent: -9999px;
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: url("../images/ORCID_icon_16x16.png") no-repeat;
+	margin-left: 5px;
+	vertical-align: middle;
+}
+
+#docSummary-orc .rubric a img {
+	display: block;
+}
+
+#marklist .resultsRow {
+	padding-bottom: 5px;
+	border-bottom: 1px solid grey;
+}
+
+#marklist .resultsRow:last-child {
+	border-bottom: none
+}
+ul {
+	list-style: none;
+}
+	
+.highlighted.color-fff600 {
+	box-shadow: inset 0 0 0 1000px #fff600;
+}
+
+.highlighted.color-a3ff21 {
+	box-shadow: inset 0 0 0 1000px #a3ff21;
+}
+
+.highlighted.color-76ddff {
+	box-shadow: inset 0 0 0 1000px #76ddff;
+}
+
+.highlighted.color-d7afff {
+	box-shadow: inset 0 0 0 1000px #d7afff;
+}
+
+.highlighted.color-ffa6b3 {
+	box-shadow: inset 0 0 0 1000px #ffa6b3;
+}
+
+.highlighted.color-ffbc64 {
+	box-shadow: inset 0 0 0 1000px #ffbc64;
+}
+
+#scribbledListPrintContainer {
+	display: block!important
+}
+
+.scribbledItems .notes, .highlightedText span{
+	display: block;
+	word-wrap: break-word;
+	word-break: break-word;
+}
+
+#scribbledListPrintContainer ul {
+    margin: 11px 0px 10px 0px;
+    padding: 0px 20px 0px 10px;
+}
+
+#scribbledListPrintContainer ul li {
+	list-style: none;
+	color: #333;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 5px 0px;
+	font-size: 1.1em;
+	line-height: 1.4em;
+	width: auto;
+	margin-bottom: 10px;
+	padding-left: 5px;
+}
+
+#scribbledListPrintContainer ul li .highlightedText {
+	font-style: italic;
+}
+
+#scribbledListPrintContainer .allNotesLink {
+	display:none;
+}
+
+/******* Kids specific *******/	
+body#aboutThisPublicationPage.ITKE div#content ul.bookPreview, 
+div#tools_kids { 
+	display:none !important; 
+}
+#notepad {
+  min-width: 400px;
+  max-width: 960px;
+  overflow-y: auto;
+  font-size: .9em;
+  line-height: 20px;
+  color: #333333;
+}
+#notepad .scrollbar {
+	overflow-x: hidden;
+}
+#notepad ul {
+  font-size: 1.3em;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid #ccc;
+  zoom: 1;
+}
+#notepad ul:last-child {
+  border-bottom: none;
+}
+#notepad ul li {
+  margin:0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 0;
+}
+#notepad ul li.title {
+  width: 22%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+#notepad ul li.title a {
+  text-decoration: none;
+  color: #034ea0;
+}
+#notepad ul li.note,
+#notepad ul li.snippet {
+  width: 35%;
+}
+#notepad ul.scribbledItems li.note,
+#notepad ul.scribbledItems li.snippet {
+  border-left: 1px solid #efefef;
+  padding-left: 3px;
+}
+#notepad ul li.note span {
+  display: block;
+}
+#notepad ul.header {
+  border: none;
+  background-color: #efefef;
+  padding-bottom: 1px;
+  zoom: 1;
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #efefef;
+}
+#notepad ul.scribbledItems, #notepad ul.scribbledItemsHeader{
+    display:table;
+    table-layout:fixed;
+    width:100%;
+}
+#notepad ul.scribbledItems .docTitle span {
+	display: block;
+	margin-top: 10px;
+}
+#notepad ul.scribbledItems li, #notepad ul.scribbledItemsHeader li {
+	box-sizing: border-box;
+	display: table-cell;
+	vertical-align: top;
+	float: none;
+	font-size: .88em;
+	line-height: 1.43;
+	padding-left: 0;
+}
+#notepad ul.header .title {
+  background: #e5e5e5;
+  /* Old browsers */
+  background: -moz-linear-gradient(left, #e5e5e5 96%, #d3d3d3 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right top, color-stop(96%, #e5e5e5), color-stop(100%, #d3d3d3));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(left, #e5e5e5 96%, #d3d3d3 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left, #e5e5e5 96%, #d3d3d3 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(left, #e5e5e5 96%, #d3d3d3 100%);
+  /* IE10+ */
+  background: linear-gradient(to right, #e5e5e5 96%, #d3d3d3 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e5e5e5', endColorstr='#d3d3d3', GradientType=1);
+  /* IE6-9 */
+}
+.rtl {
+	text-align : right;
+	direction : rtl;
+}
+
+#marklist #marklistCollectionList .resultsRow .citationBlock .citation {
+	display: table;
+	width: 100%;
+}
+
+#marklist #marklistCollectionList .resultsRow .citationBlock .citation .myFolderNumber {
+	display: table-cell;
+	padding-left: 10px;
+	width: 35px;
+}
+
+#marklist #marklistCollectionList .resultsRow .citationBlock .citation .myFolderCitation {
+	display: table-cell;
+}
+
+/*****************************************************
+	=TableOfContents
+*****************************************************/     
+
+#etoc-links {
+	display:none;
+}
+
+.bookPreview {
+	display: table;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+  
+.atpPublicationTitle {
+	font-size: 1.6em;
+}  
+                 
+.bookPreview .bookPreviewInner {
+	vertical-align: middle;
+	padding: 10px;
+	line-height:1.5;
+}
+  
+#aboutThisPublicationPage .book img {
+	max-height: 130px;
+}  
+
+
+ul.loi_entries li {
+	list-style: none;
+}
+
+.global-header-wrapper .editor-info, .global-header-wrapper .author-info {
+	display: block;
+}
+
+.bibFullLink, button, .essay-similarArticles, .essay-similarArticlesBySubject, .essay-media, #relatedMedia, #readSpeakerParent, .essay .ParaTypeDecorator.rs_skip {
+	display: none;
+}
+
+#documentDisplay div.sideBarTitle { 
+	display:none; 
+}
+#documentDisplay div.sideBarArticle .removeDrive { 
+	display:none; 
+}
+
+.essay .poem {
+	font-style: italic;
+	padding: 10px 0 10px 40px;
+}
+
+.essay  blockquote {
+	padding: 20px;
+	background: #EAF2FC;
+	display: block;
+	margin: 10px 0;
+}
+
+.document-wrapper figure.essay-image {
+	position: relative;
+	overflow: hidden;
+	width: 1024px;
+}
+
+.document-wrapper figure.essay-image img {
+	position: static;
+	margin-top: auto;
+	margin-bottom: -320px;
+	width: 100%;
+}
+
+.document-wrapper .table .bibliography h2 .subheader {
+	font-size: 13px;
+	color: #444;
+	display: block;
+	padding: 0 0 8px 0;
+	margin: -5px 0 0 0;
+}
+
+.document-wrapper .table .content .imageGroup {
+	float: right;
+	margin-left: 30px; 
+}
+
+.document-wrapper .table .content .imageGroup img {
+	width: 100%;
+	max-width: 450px;
+	margin: 0 auto;
+	display: block;
+}
+.essay .abstract, .essay .Abstract{
+	border-radius: 5px;
+	font-size: 1.172rem;
+	color: #555;
+	font-style: italic;
+	line-height: 1.5;
+}
+
+.essay.active {
+	height: auto !important;
+}
+
+.document-text ol, .document-text ul {
+	margin:0px 20px 20px 35px
+}
+.document-text ol.decimal {
+	list-style-type: decimal;
+} 
+.document-text ol.lower-latin {
+	list-style-type: lower-latin;
+} 
+.document-text ol.upper-latin{
+	list-style-type: upper-latin;
+} 
+.document-text ol.lower-roman {
+	list-style-type: lower-roman;
+} 
+.document-text ol.upper-roman {
+	list-style-type: upper-roman;
+} 
+.stage .image img  {
+	width: 500px;
+	display: inline;
+}
+img.dviImage {
+	width: 500px;
+}
+
+#callistoImage {
+   /*  max-width: 270px;
+  	float: left; */
+   	padding-right: 30px;
+   	margin-top: 29px;
+}
+
+h1.header-h1 {
+	font-size:16px;
+}
+
+.questions ul {
+	list-style: disc;
+    margin: 15px;
+}
+
+.forReadSpeaker {
+	display: none;
+}
+
+.bookPreview .titleSecondaryInfo {
+	font-size: 0.85em;
+	font-style: italic;
+}
+
+#atp-docinfo ul li.loi_entry {
+	list-style: none;
+	float: none;
+	display:block;	
+}
+
+.Rio.Ebook .docData.entity {
+	display: none;
+}
+
+#scribbledArticles .citationFormatSelect {
+	display: none;
+}
+
+#aboutThisPublicationPage .bookPreview .bookPreviewInner .view-ebook {
+	display: none;
+}
+
+.quickFacts h2.removeDrive {
+	display:none !important;
+}
+
+.document-comment {
+	margin-bottom: 10px;
+	padding: 10px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+#infoMark, .emailInfomarkContent {
+	display: none;
+}
+
+.sideBarArticle {
+	margin: 10px 20px 0 20px;
+}
+
+#details .video-transcript .document-text {
+	display: block;
+}
+
+#videoDialog,
+.transcriptHeader,
+.videoTranscript {
+	display: none;
+}
+
+
+.directory .rubric {
+	display: inline-block;
+	width: 21%;
+	font-weight: bold;
+	vertical-align: top;
+}
+
+.directory .value {
+	display: inline-block;
+	vertical-align: top;
+	width: 78%;
+}
+
+.directory .row {
+	padding: 8px 0;
+}
+
+.directory .row ul {
+	padding: 0;
+	margin: 0;
+}
+
+.doc-pub-details .pub-linK b {
+	font-weight: normal;
+}
+
+.doc-title, #docSummary #docSummary-title {
+	font-weight: bold;
+}
+
+.document-body-text {
+	padding-top: 20px;
+}
+
+.third-party-disclaimer {
+	font-style: italic;
+	font-size: .9em;
+	padding: 15px 0;
+}
+.hide-print {
+	display: none;
+}
+
+.company-details .description span {
+	margin-top: 7px;
+	margin-bottom: 7px;
+}
+
+.company-details .row > * {
+	display: block;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.GDL #documentDisplay .item a {
+	color: #000000 !important;
+}
+
+.directory .aboutEbookLink {
+	display: none;
+}</style></head><body>
+			
+<div id="documentDisplay">
+
+	<div id="docSummary">
+			<!-- RSPEAK_START -->
+    <div class="docData doc-title">
+     	        <span class="definition cloudDriveTitle" id="docSummary-title">Full Year 2018 Ubisoft Entertainment SA Earnings Call - Final</span>
+    </div>
+     <!-- RSPEAK_STOP -->
+	    <div class="docData doc-work-title-info">
+        <span class="definition">
+                    </span>
+    </div>
+	    	    	    	    <div class="docData doc-pub-details">
+        <span class="definition">
+                            <span class="pub-link"><b><i>Fair Disclosure Wire.</i></b></span>
+                                    	<span class="pub-book-year">2018.</span> 
+                                        <span class="citation-from"> From <em>Business Collection</em>.</span>
+                    </span>
+    </div>
+	            <div class="docData doc-copyright">
+            <span class="rubric">版权: </span>
+            <span class="definition">  
+                版权 2018 CQ-Roll Call, Inc.<!-- please do not remove this comment, in place to remove the extra space
+                -->            </span>
+                                        <div id="pubUrl" class="rs_skip">
+                    <a id="headerPubUrl" class="headerPubUrl" href="http://www.rollcall.com/about/" target="_blank">http://www.rollcall.com/about/</a>
+                </div>
+                    </div>
+    	</div>
+
+<!-- RSPEAK_START -->
+<div class="document-body-text highlighter-context"><!--
+						do not remove
+					--><div class="document-text"><!-- FT/IMG --><div class="ParaTypeDecorator rs_skip">全文：&nbsp;</div>
+<div class="SideNotePara"><p>  Presentation
+</p></div>
+<div class="SideNotePara"><p>  OPERATOR: Good day, and welcome to the Ubisoft FY '18
+Earnings and Sales Conference Call. At this time, I would like to turn the
+conference over to Guillemot, President and CEO. Please go ahead.
+</p></div>
+<div class="SideNotePara"><p>  YVES GUILLEMOT, CO-FOUNDER, CHAIRMAN, CEO &amp; PRESIDENT, UBISOFT
+ENTERTAINMENT SA: Good afternoon, and good morning, everybody. Thank you for
+joining our conference call.
+</p></div>
+<div class="SideNotePara"><p>  So our industry is thriving. We are reaching more people on more
+platforms through even greater variety of business model. It is striking to
+see that in the past 6 months, there have been record performances from many
+games in parallel to the surge of battle royale titles. On our side,
+following the strong comeback of Assassin's Creed, we delivered a record
+launch for Far Cry 5. We also achieved new engagement records for our live
+operations in the March quarter. This clearly shows that in a dynamic and
+competitive landscape, our industry offers significant opportunities. More
+people play, they spend more time playing, and they enjoy more and more our
+highly polished games experiences.
+</p></div>
+<div class="SideNotePara"><p>  Ubisoft is therefore in a great position to continue creating
+significant shareholder value during the coming years. As such, we remain
+focused on delivering strong execution across the board and on leveraging our
+long-term strategy. This strategy is based on IP ownership, on investing in
+our team skills and on a dependable production organization capable to
+deliver both high-quality games and strong customer services. We are building
+an even more adaptable company and leveraging our track record in engaging
+with our communities and in integrating them as true stakeholders. This trend
+will be key asset in capturing all the opportunities offered by the upcoming
+evolution of our industry.
+</p></div>
+<div class="SideNotePara"><p>  The short and medium term is exciting, both in terms of potential
+top line growth and profitability progression. Opportunities are plentiful
+from our catch-up momentum on digital to the massive potential of the mobile
+and PC markets, notably in China and to our strides in eSports.
+</p></div>
+<div class="SideNotePara"><p>  Over the longer term, thanks to the arrival of new forms of gaming
+driven notably by streaming, we have the opportunity to significantly expand
+our addressable market. It will notably be driven by our investment in the
+Ubisoft Club, our online platform, strong of 88 million unique active players
+on console and PC. We are also pursuing our investment in artificial
+intelligence and machine learning to tailor the gaming experience to each
+gamer's profile and to offer them stronger and deeper experiences.
+</p></div>
+<div class="SideNotePara"><p>  With such meaningful short- and longer-term opportunities, it is
+clear we are just starting to reap the benefits of the digital transformation
+we have been successfully conducting. I want to thank our teams for the
+amazing work they deliver every day.
+</p></div>
+<div class="SideNotePara"><p>  I'll now hand over the call to Alain.
+</p></div>
+<div class="SideNotePara"><p>  ALAIN MARTINEZ, CFO, UBISOFT ENTERTAINMENT SA: Thank you, Yves,
+and hello, everybody. We achieved record revenues in fiscal year '18
+with sales of EUR 1,732,000,000, EUR 92 million higher than our revised
+target. This represents a growth of 19% despite a negative exchange rate
+impact of EUR 55 million versus last year. In Q4, we continued to execute
+strongly across the board. Far Cry had a record launch, making it the second
+best launch for a Ubisoft game ever and the best-selling game in the
+franchise, doubling the week 1 sales of Far Cry 4. Digital distribution has
+been very strong, and the games' great content offering resulted in a
+stronger than expected season past performance that will benefit fiscal year
+'19. These trends should continue well into fiscal year '19, with
+strong reorders and with a great post-launch plan built notably around the
+release of 3 initial DLCs.
+</p></div>
+<div class="SideNotePara"><p>  Assassin's Creed Origin is still going on strong and has
+achieved record revenue for an Assassin's Creed game in the fourth
+fiscal quarter. The extended run has been bolstered by regular content
+update, coupled with stronger player engagement, and the game ended the year
+with remarkable digital performance. The recent DLC release, The Curse of The
+Pharaohs, has been unanimously reprised. It reflects our focus on delivering
+not only great games but also very high-quality post-launch contents and
+services.
+</p></div>
+<div class="SideNotePara"><p>  On the back-catalog side, we have continued to engage with our
+communities and to onboard them in our live operation. Here are some notable
+events.
+</p></div>
+<div class="SideNotePara"><p>  Rainbow Six Siege reached new engagement records during the
+quarter with a new seasons release, the Six Invitational 2018. The biggest
+eSports event on the Rainbow Six scene was a success with a 300% increase in
+viewership versus last year. The next major event will be the Six Major in
+Paris this August. Rainbow Six Siege is well above 30 million registered
+players, and the team continues to execute superbly on its clear vision. They
+are listening to and deeply engaging with the Rainbow Six community to build
+and grow the game for the next 10 years.
+</p></div>
+<div class="SideNotePara"><p>  We continue to be astonished by the great work done by the Ghost
+Recon Wildlands team. They are delivering fantastic content on a regular
+basis, and the game's registered players has surpassed 10 million
+players. Wildlands saw very solid engagement over the past months following
+the release of a Splinter Cell mission, which was very well received. With
+its second year of appealing post-launch content recently announced, the team
+demonstrates its agility to build a true platform that engage players over
+the long run.
+</p></div>
+<div class="SideNotePara"><p>  For Honor's team successfully implemented the new dedicated
+server architecture with greatly improved matchmaking and stability. The new
+services, combined with recent adjustment to game balancing and the
+introduction of new training modes, resulted in a significant improved
+in-community sentiment. For Honor will see plenty of new content including
+new heroes and events in fiscal year '19. We can't wait to tell you
+more at E3.
+</p></div>
+<div class="SideNotePara"><p>  With a dedicated community of more than 20 million registered
+players, the future is promising for The Division franchise. Following the
+success of The Division substantial update, 1.8 Resistance, we unveiled 2 new
+global events plus an Xbox One X enhanced 4K Ultra HD optimization. In March,
+we announced that The Division 2 is in development by the team that created
+the original game. The team is passionate about integrating all the learnings
+they have accumulated over the past 2 years. The Division 2 will hit shelves
+in fiscal year '19. We are excited to show you more at E3.
+</p></div>
+<div class="SideNotePara"><p>  At the group level, we reached new record MAUs and peak concurrent
+users during the quarter despite fewer releases than last year. Full year
+MAUs were up 22% year-on-year, and mobile DAUs were up 130%. Engagement from
+Asian players, notably from China, has grown strongly. And new play PC, our
+platform for online services and distribution, has reached new MAU and PCU
+records. Finally, new French relationship activated through the Ubisoft Club,
+a measure of the platform network effect, were up 40%. All these resulted in
+a strong digital performance representing a record 58% of total revenue
+versus 50% last year.
+</p></div>
+<div class="SideNotePara"><p>  Player recurring investment was the strongest driver of our
+performance, up 59% over the year and represented a record 28% of total
+revenue, up 7 points. As part of player recurring investment, mobile,
+profitable for the first time, saw strong growth of 66% and represented 5% of
+total group's revenue, highlighting the massive catch-up opportunity for
+Ubisoft. Spurred by digital strength, back-catalog reached a new record of
+48% of total revenues, up 3 points. This confirms once more the increasingly
+recurring nature of our business, which provides us with much stronger
+visibility than in the past. This increased visibility has played a
+fundamental role as it allowed us to allocate more time to polish our new
+releases to reach the high level of quality that player expect, which in
+turns increase those games overall potential. This is exactly what happened
+with Assassin's Creed Origins and Far Cry this year. This is also
+supporting our confidence in the quality and impact of our upcoming releases
+starting with The Crew 2 next month.
+</p></div>
+<div class="SideNotePara"><p>  On the earnings side, our strong top line performance translated
+into record non-IFRS operating income of EUR 300 million versus our target of
+EUR 270 million. Worth mentioning, we outperformed our target despite an
+exchange rate headwind of EUR 32 million as we had started the year with a
+U.S. dollar assumption at $1.09. Cash flow from operations ended up at EUR
+215 million, with significant improvement versus last year.
+</p></div>
+<div class="SideNotePara"><p>  Let me go in more detail. The non-IFRS operating income stood at
+EUR 300 million versus EUR 238 million last year, up 26%. This EUR 62 million
+improvement reflects gross margin increasing by EUR 246 million, thanks both
+to high sales and to a 1.5% margin improvement, setting a new margin record
+of 82.9%. It is worth noting that the lower gross margin on switch sales
+partially reduced the positive impact of the 8-point increase in digital
+sales. On the other side, R&amp;D expenses grew by EUR 139 million. I'll
+detail this increase later on. Variable marketing expense grew EUR 14
+million, and we are down 1.5 points versus last year. This reflects the
+efficiency gain spurred by the digital transformation as well as the strength
+of our back-catalog. Finally, structure cost increased by EUR 30 million, EUR
+7 million of which were related to one-off costs linked to the Vivendi exit.
+</p></div>
+<div class="SideNotePara"><p>  Moving to Page 19 of our presentation, which details our R&amp;D
+expenses and investment. The EUR 139 million increase of our total R&amp;D
+reflects the EUR 55 million increase of depreciation on a stronger lineup as
+well as additional depreciation charge booked on to be released titles ahead
+of a very competitive year. EUR 82 million increase in the noncapitalized
+expense as we continue expanding our successful lives operation. Greater team
+bonuses linked to games' increase profitability are also impacting this
+line. The EUR 110 million increase of our cash R&amp;D comes mostly from the
+noncapitalized expense, which now represent 25% of our total investment, up 8
+point versus last year. On the other side, capitalized R&amp;D grew 5%. This
+confirms that greater part -- a greater part of our R&amp;D investment are
+now related to current operation, delivering regular revenue and
+profitability. Consequently, the gap between R&amp;D expenses and investment
+stood at EUR 59 million, down EUR 30 million from prior year.
+</p></div>
+<div class="SideNotePara"><p>  Moving to Slide 20. The IFRS, non-IFRS reconciliation shows 3
+types of adjustment: the traditional stock-based compensation charge standing
+at EUR 40 million as expected; a noncurrent charge of EUR 38 million related
+to brand and goodwill depreciation; and finally, a financial charge of EUR 8
+million related to the implicit convertible bond option cost. As expected,
+our overall average tax rate closed at 25%.
+</p></div>
+<div class="SideNotePara"><p>  Finally, Slide 21. Free cash flow stood at EUR 111 million versus
+EUR 86 million in fiscal year '17. This reflects a EUR 105 million
+increase of our cash flow from operation, of which EUR 62 million came from
+our EBIT improvement and EUR 30 million from the narrowing of our R&amp;D
+P&amp;L versus cash gap that I mentioned earlier. This was partially
+compensated by EUR 84 million negative swing in our working capital, EUR 63
+million linked to our decision not to factor any receivable this financial
+year, giving the strong line of credits already available. Net acquisitions
+of EUR 179 million included a EUR 100 million deposit on the EUR 200 million
+swap agreement relating to the Vivendi exit. This deposit was booked as a
+capital asset acquisition and should revert to liquidity by September 2018.
+In addition, we spent EUR 79 million on M&amp;A transaction, down EUR 28
+million versus fiscal year and purchased a total of EUR 412 million of shares
+including EUR 300 million from the prepaid forward agreement linked to the
+Vivendi exit. As a result of those different flows, we ended the year with a
+EUR 548 million net debt.
+</p></div>
+<div class="SideNotePara"><p>  Let's see on Page 22 how we plan to reduce it over fiscal
+year '19. First, our free cash flow target adds up EUR 300 million for
+the full year. Second, we expect to receive over EUR 100 million in the first
+half of the year from our latest employee shareholder plan. For information,
+most of the newly share created will be compensated by the cancellation of
+the 1.4% shares we had bought in the first half of fiscal year '18.
+Finally, as mentioned earlier, the EUR 100 million outflow on the EUR 200
+million swap agreement should move from deposit, i.e. debt, to short-term
+liquidity asset -- liquid assets. Altogether, those factors should bring down
+our net debt by EUR 500 million by year-end. This, plus the fact that we
+disposed of EUR 1,250,000,000 of long-term fully committed funding, of which
+the EUR 400 million convertible loan well in the money, gives us all the
+financial means we need. We will be able to continually exploring external
+growth opportunity as we have done in the past as well as financing the EUR
+200 million remaining swap shares.
+</p></div>
+<div class="SideNotePara"><p>  Let's now move to fiscal year '19. As announced on May
+9, we will start to apply IFRS 15 new accounting norm at the time of the
+first quarter fiscal year '19 communication. For more details, please
+refer to the appendices of our earning release.
+</p></div>
+<div class="SideNotePara"><p>  Today, we are introducing an IFRS 15 sales target, and we are
+renaming our prior revenue target based on prior accounting standards as net
+bookings.
+</p></div>
+<div class="SideNotePara"><p>  Fiscal year '19 IFRS 15 sales are expected around EUR 2
+billion. Net booking, again corresponding to our prior sales definition, is
+now expected at around EUR 2,050,000,000 versus EUR 2.1 billion previously.
+The non-IFRS operating income based on net bookings and free cash flow
+targets are confirmed at, respectively, approximately EUR 440 million and EUR
+300 million.
+</p></div>
+<div class="SideNotePara"><p>  As we have done in the past, we are updating our top line
+assumption to reflect the faster-than-anticipated digital transformation. We
+now expecting digital at approximately 65% of net booking versus around 60%
+previously, with player recurring investment now at approximately 30% versus
+25% -- over 25% previously. Back-catalog is expected at approximately 50% of
+net booking versus above 45% previously.
+</p></div>
+<div class="SideNotePara"><p>  As with prior updates, we are taking advantage of the benefits
+brought by digital, both in terms of additional revenues and profitability to
+reduce risk. As a consequence, we have decided to invest more time in the
+development of Skull &amp; Bones, which is now expected for fiscal year
+'20. The number of units expected on the 3 AAA new releases is now
+around 19 million unit versus 23 million for 4 AAA games previously. This
+reflects both Skull &amp; Bones moving out of the year as well as a lower
+exposure to other new releases. As such, the 18% year-on-year top line growth
+will be mostly driven by back-catalog and player recurring investment.
+</p></div>
+<div class="SideNotePara"><p>  First, on the back-catalog side, fiscal year '18 strong top
+line growth of 19% will be a notable support. We expect continued strong
+performance from Assassin's Creed Origin, significant reorders for Far
+Cry 5, mobile growth driven by acquisition, plus, of course, the continued
+momentum of our live titles. Second, on the player recurring investment side,
+our post launch content offering will see a step-up versus fiscal year
+'18 with stronger releases and services. We will provide more
+information on those offerings throughout the year. This reflects our
+continuously increasing investment in live operation. Now more than ever,
+Ubisoft is committed to support its game and its communities for the long run
+with great services and content.
+</p></div>
+<div class="SideNotePara"><p>  On the new release side, in a very competitive year, we are
+looking to launch very strong titles that will benefit from extended
+development tide that should support the overall performance. The release
+slate will be made of The Division 2, The Crew 2 and one unannounced
+franchise title that we can't wait to unveil at E3. These 3 games are
+the result of a huge amount of work and passion for our teams over many
+years.
+</p></div>
+<div class="SideNotePara"><p>  The expected 4-point increase in operating margin will come from
+another step-up in gross margin as well as a decrease of R&amp;D and SG&amp;A
+costs as a percentage of net bookings.
+</p></div>
+<div class="SideNotePara"><p>  Regarding the items below the non-IFRS operating income line, we
+expect stock-based compensation of around EUR 40 million, net financial
+charges of around EUR 9 million, tax rate of 23% and number of diluted shares
+of around 118 million shares, reflecting the impact of the prepaid buyback of
+4.5 million shares owned previously by Vivendi.
+</p></div>
+<div class="SideNotePara"><p>  Regarding the exchange rate, our assumptions are based on the euro
+at USD 1.22 and at CAD 1.53.
+</p></div>
+<div class="SideNotePara"><p>  Looking at Q1, based on these positive trends as well as on the
+upcoming release of The Crew 2, we expect IFRS 15 sales of approximately EUR
+350 million and net booking at approximately EUR 350 million, up 73%
+year-on-year.
+</p></div>
+<div class="SideNotePara"><p>  The Crew 2 -- The Crew franchise has gathered 14 million players
+worldwide to date. The team has focused on making The Crew 2 a more
+accessible experience, with more freedom and pure fun. In addition to cars
+and bikes, players will be able to race on boats and planes. The Crew 2
+offers experience for all types of racers from those who want to drive and
+explore America to competitive racers, car enthusiasts and more. We will
+support the game for the long run and apply the great learnings we have
+accumulated with our live titles to enhance its post-launch operation. Of The
+Crew 2 will be released on June 29.
+</p></div>
+<div class="SideNotePara"><p>  I now hand over the call to Yves.
+</p></div>
+<div class="SideNotePara"><p>  YVES GUILLEMOT: Thank you, Alain.
+</p></div>
+<div class="SideNotePara"><p>  To conclude, Ubisoft continues to benefit from its focus on highly
+innovative teams, IP ownership, strong execution and a unique production and
+creative organization. We are building an adaptable company, deeply engaged
+with its community. Operating in a thriving industry with an expanding
+addressable market and strong of many growth drivers, Ubisoft is ideally
+positioned to continue to grow its top line and profitability over the years
+to come.
+</p></div>
+<div class="SideNotePara"><p>  So we are now ready to take all your questions.
+</p></div>
+<div class="SideNotePara"><p>  Questions and Answers
+</p></div>
+<div class="SideNotePara"><p>  OPERATOR: (Operator Instructions) We'll go first to Nicolas
+Langlet of Exane BNP.
+</p></div>
+<div class="SideNotePara"><p>  NICOLAS LANGLET, RESEARCH ANALYST, EXANE BNP PARIBAS, RESEARCH
+DIVISION: I've got 3 question, please. The first one on China and the
+partnership with Tencent. Can you tell us a bit more regarding the structure
+of the partnership? And what are the key initiatives you plan to launch in
+the coming months or quarters? And also, if you can give us a view in terms
+of sales and profit opportunity you see in the country in the medium term,
+that would be great. Second question on the PRI. Can you tell us what is the
+share of the in-game transaction in the total PRI and if it was the main
+growth driver of that segment in full year '17, '18? And lastly, on
+R&amp;D. So you still have the difference between R&amp;D, P&amp;L and cash
+of EUR 60 million. How do you see this difference evolving in next year and
+the year after?
+</p></div>
+<div class="SideNotePara"><p>  YVES GUILLEMOT: Thank you for your questions. So on the Tencent
+deal, what we can say is that this deal is on PC on one side, where we have a
+few products that will be published by Tencent. We expect a big growth
+happening from the launch of those games that some of them will be actually
+relaunched like Rainbow Six. The -- what we can say is that on the other
+side, the mobile agreement is an agreement that is going to help us to grow
+tremendously our presence in China because the agreement gives us the
+opportunity to create a few games together that will be launched in China and
+in the rest of the world.
+</p></div>
+<div class="SideNotePara"><p>  ALAIN MARTINEZ: What we can add is that the role of Tencent will
+be to get our games approved locally to market them, to, of course, help us
+in order to make the game as adapted to the Chinese market and then to
+operate those games locally, which we cannot do today. So those are what on
+-- particularly on the AAA game, what will be the role of Tencent. And there
+will be revenue share as it is usual, but we don't give detail about
+that.
+</p></div>
+<div class="SideNotePara"><p>  YVES GUILLEMOT: And what's really good is that we will be
+able to embrace China with mobile and PC.
+</p></div>
+<div class="SideNotePara"><p>  ALAIN MARTINEZ: Regarding the player recurring investment, we
+don't really give details of where it goes. What you can expect is that
+when you have a new game like, for instance, Assassin's Creed being
+released at the beginning of the launch, a large amount of the revenue come
+from the DLC. But as the game goes, more and more revenue come from items
+being purchased during the game. So that's the way it evolves. So
+therefore, the player recurring investment as an average evolve according to
+the -- our new games in this life cycle. And regarding the R&amp;D delta, we
+expect to grow it from next year, from fiscal year '18 on the basis that
+we have decided to postpone Skull &amp; Bones. And for fiscal year '20,
+we haven't given an indication of what we expect so we are not going to
+communicate on the gap.
+</p></div>
+<div class="SideNotePara"><p>  NICOLAS LANGLET: Okay. And just to come back on the comment on
+China. So you said you plan to launch Rainbow Six -- a new version of Rainbow
+Six in the country. Is it in this fiscal year or the next fiscal year?
+</p></div>
+<div class="SideNotePara"><p>  YVES GUILLEMOT: So it's not a new Rainbow Six. It is the
+actual Rainbow Six that will be reaped by Tencent, and we have plans to come
+as early as it's possible.
+</p></div>
+<div class="SideNotePara"><p>  OPERATOR: We'll take our next question from Tim O'Shea
+of Jefferies.
+</p></div>
+<div class="SideNotePara"><p>  TIMOTHY LARKIN O'SHEA, EQUITY ANALYST, JEFFERIES LLC,
+RESEARCH DIVISION: There's a big debate right now about whether these
+battle royale games are expanding the market or whether they're
+cannibalizing it, and I was just curious what's your view on the matter,
+Yves. I think you noted the record performance of many games in the
+portfolio. So is there a way to quantify the impact from battle royale on
+your games? What are you seeing, if anything, especially for games like
+Rainbow Six Siege that are generating high volumes of PRI?
+</p></div>
+<div class="SideNotePara"><p>  YVES GUILLEMOT: So thank you for the question. In fact, what we
+see is that it has an impact like it happens when all the games are launched,
+like even when Call of Duty is coming. It has an impact on all the games we
+have, but it doesn't stop us to have record revenues and record number
+of players playing. So it's like another game, I would say. We see that
+all the games we are doing continue to perform very well. And the growth and
+the increase, even in all the games we have as game as a service, is
+continuing with a good speed.
+</p></div>
+<div class="SideNotePara"><p>  ALAIN MARTINEZ: As we mentioned, Tim, we had a record number of
+players on the Rainbow Six last quarter and excellent revenue levels. So we
+see, but it looks very good up to now.
+</p></div>
+<div class="SideNotePara"><p>  YVES GUILLEMOT: And what we can say is that it's really good
+to have new innovations like that because it's showing that we can have
+even more players playing shooter games on the market. So all those new
+people that are coming to the industry are really playing more and more the
+types of games that we create. So we think it's going to actually boost
+the industry.
+</p></div>
+<div class="SideNotePara"><p>  OPERATOR: We'll go next to Robert Berg of Berenberg.
+</p></div>
+<div class="SideNotePara"><p>  ROBERT BERG, ANALYST, BERENBERG, RESEARCH DIVISION: Three
+questions from me. The first, obviously, you mentioned in the presentation
+and in the guidance that this is a competitive year. It feels like this is
+something you've been saying for the past few years that you've
+been outperforming expectations. We'd love to hear what is more
+competitive about this year compared to your existing expectations at the
+half year stage. Is it Fortnite or other games? Also a quick calculation,
+tell me if I'm right, you've reduced expectations by about EUR 2
+million across 3 games, which doesn't sound too drastic. I just want to
+get a sense on how important that comment was. Second question on -- I just
+to get an insight into your thinking on the timing of releases versus their
+quality. Obviously, it's great to have a better game, but it feels like
+you're delaying numerous games now. And how do you think about the
+quality versus the timing of the release, whether that's Christmas or
+summer? Or is positioning the release slate calendar versus peers? Would be
+interested to hear your thoughts there. And third question is on Rainbow Six.
+eSports, obviously, a great quarter, a huge peak during the invitational,
+showing there's a huge number of people willing to watch the game. And
+then you get the big drop back down better than you had thought of it, the
+tournament. But I'm just wondering if there's anything you are
+trying to do to keep that level of average viewers up between the big
+tournaments.
+</p></div>
+<div class="SideNotePara"><p>  YVES GUILLEMOT: Okay. Thank you for your questions. So first, what
+we see on timing is that the industry changed a little bit because we saw in
+the last few years that launching a game, either fourth quarter for us, which
+is between January and March; or even second quarter, which is from the 1st
+of April through the end of June, is a good timing to launch product. We saw
+also that end of August is also good timing. So what we see more and more is
+now we can launch games almost whenever we are ready and whenever we want
+just because there's a good appetite for our new products on the market,
+just thanks to the fact that there are less big games coming to the industry.
+So that gives us the possibility to choose when to launch because it's
+really the quality that will make the difference in the industry.
+</p></div>
+<div class="SideNotePara"><p>  ALAIN MARTINEZ: And what I will add is if you remember in fiscal
+year -- in February 2016 when we presented our 3-year plan, we presented 5
+games for 40 million unit to be sold to arrive at EUR 440 million of EBIT on
+EUR 2.2 billion of sales. And interestingly enough, this year we will achieve
+the same amount of EBIT with only 3 games. And considering that in the
+process, we probably will have had a very negative headwind on the dollar. So
+if you add up all of that, it shows up the industry has evolved, and why
+it's us but it's also other players have decided to really take a
+lot more care through each of their releases and don't hesitate to
+postpone when they think that there is a real value for it.
+</p></div>
+<div class="SideNotePara"><p>  YVES GUILLEMOT: And there's also one point, which is working
+very well, is to continue to put attention to all the games we launched. And
+in creating regular content for the players that bought our games, it's
+really helping those games to continue to sell. And we have, thanks to that,
+also lots of revenue from the players that play for 6 months, 1 year or 2
+years for some of those games. So it's helping the back-catalog, and
+it's generating good revenue for the company. Now to come back to your
+question about competitive -- competition for this year. It's true that
+we often say that there's a lot of competition. This year, we see even
+more competition than before. But what we feel is that in making sure we come
+at the right time, we will be able to take a good part of the potential of
+the market because we feel that in launching good games at the right time
+will help us to generate bigger revenue for those games.
+</p></div>
+<div class="SideNotePara"><p>  ALAIN MARTINEZ: Rainbow Six and eSport, maybe you want to...
+</p></div>
+<div class="SideNotePara"><p>  YVES GUILLEMOT: Yes. Rainbow Six continues to grow very fast
+because there are more and more players playing it and spending more time on
+it. And thanks to that, the eSports growth continues to happen. And we will
+have, in Paris, in August, another competition that will be massive. So we
+feel that we will continue to grow the eSports trend. We feel that with time,
+we can reach -- we can be in the top played games on eSports.
+</p></div>
+<div class="SideNotePara"><p>  ROBERT BERG: Okay. Great. And just on the couple of million units
+of the 3 games, is that a fair assumption for the cut to this year...
+</p></div>
+<div class="SideNotePara"><p>  ALAIN MARTINEZ: We spoke about 4 million down including Skull
+&amp; Bones, so it depends where you put Skull &amp; Bones. But as we said,
+there is some impact on the other games. That's all we can say.
+</p></div>
+<div class="SideNotePara"><p>  OPERATOR: We'll go next to Chris Merwin of Goldman Sachs.
+</p></div>
+<div class="SideNotePara"><p>  CHRISTOPHER DAVID MERWIN, RESEARCH ANALYST, GOLDMAN SACHS GROUP
+INC., RESEARCH DIVISION: Okay. As it relates to PRI, it looks like you had
+another very strong quarter. The growth rate did slow down a little bit
+year-on-year. I imagine part of that is due to some tougher comps. Was there
+anything else from a timing perspective that may have impacted PRI in the
+quarter? I also noticed that you raised the guidance for PRI to be 30% of
+revenue in '19, up from 25% earlier, which I think implies an increase
+of about $90 million. So just curious, does that include an incremental
+contribution from the games you plan to release in '19? Or is most of
+that increase in the guidance from the current portfolio of titles? And then
+just one other quick question. You mentioned that you pushed Skull &amp;
+Bones obviously into fiscal '20. And apologies if I missed this, but
+just wondering if you wouldn't mind updating us on how many AAA titles
+we should now expect in '20 and how should we think about units for
+'20 relative to '19.
+</p></div>
+<div class="SideNotePara"><p>  ALAIN MARTINEZ: Okay. Regarding the player recurring investment in
+Q4, there is one simple effect, as you know, we launched Far Cry 5. And Far
+Cry 5, as we said, had an excellent success in terms of DLC and season past
+purchase. But of course, as we didn't deliver that content, we defer
+that revenue. So we do have -- we had less player recurring investment
+because of Far Cry late launch, which will in turn benefit fiscal year
+'19. So it's one of the impact that is mechanically brought to
+fiscal year '19. And as you've said, on top of just having that
+mechanical effect, we will continue to maintain our games longer and to
+create new events and new content. And therefore, we believe that we can grow
+that part. And regarding fiscal year '20, we haven't given any
+detail of the games, number of games that we will do. That's not
+something that we expect to do. Okay. Sorry, maybe -- we didn't get --
+your question was, how many games on average can we expect on a yearly basis?
+We do expect 3 to 4 years. Of course, we have not given the detail. But on
+average, it could be 3 to 4 games.
+</p></div>
+<div class="SideNotePara"><p>  YVES GUILLEMOT: AAA games. AAA.
+</p></div>
+<div class="SideNotePara"><p>  OPERATOR: We'll go next to Evan Wingren of KeyBanc Capital
+Markets.
+</p></div>
+<div class="SideNotePara"><p>  EVAN TODD WINGREN, RESEARCH ANALYST, KEYBANC CAPITAL MARKETS INC.,
+RESEARCH DIVISION: As you think about The Division 2, how are you preparing
+for the follow-on content relative to perhaps the first launch of The
+Division?
+</p></div>
+<div class="SideNotePara"><p>  YVES GUILLEMOT: Yes. It's a good question. We were surprised
+a little bit by how fast people consume content on the first one. So
+we've been working with the teams to really bring a lot of content at
+launch and to be ready to continue to supply content a lot during the years
+that will follow the launch. So we are working out to make sure we have lots
+of content of a label so that people can stay in the game for the long run.
+</p></div>
+<div class="SideNotePara"><p>  ALAIN MARTINEZ: Yes. Very clearly, the -- what we call the end
+game part was something that The Division 1 could have improved, and we
+believe that we got it now and that we feel comfortable. Though as we
+mentioned, the 1.8 evolution has been very, very well received, so we think
+that we have the right tools to deliver a much better game.
+</p></div>
+<div class="SideNotePara"><p>  YVES GUILLEMOT: And we are leveraging on all -- we are leveraging
+all the experience we accumulate on #1 to make sure we deliver a fantastic
+#2.
+</p></div>
+<div class="SideNotePara"><p>  EVAN TODD WINGREN: Okay. And then just one question, follow-up on
+the guidance for the year. Are you expecting meaningful marketing expenses
+for Skull &amp; Bones to hit in the fiscal year '19 even though you
+pushed the game release into fiscal year '20?
+</p></div>
+<div class="SideNotePara"><p>  YVES GUILLEMOT: No, very small.
+</p></div>
+<div class="SideNotePara"><p>  OPERATOR: We'll go next to Doug Creutz of Cowen.
+</p></div>
+<div class="SideNotePara"><p>  DOUGLAS LIPPL CREUTZ, MD AND SENIOR RESEARCH ANALYST, COWEN AND
+COMPANY, LLC, RESEARCH DIVISION: I wonder if you'll talk a little bit
+about where you see your opportunities on mobile. Obviously, your success has
+largely been driven by games that are away from your core IP. How are you
+thinking about what you can do with some of your bigger franchise like
+Assassin's Creed or Tom Clancy on mobile? And where do you think the
+opportunities are?
+</p></div>
+<div class="SideNotePara"><p>  YVES GUILLEMOT: Thank you. What we see is that the machines are
+becoming more and more powerful, especially the mobile machines. So we feel
+that with time, coming from this increase of machine power and streaming, we
+will be able to really make our games, AAA games, work on mobile machines. So
+we are now working with our team so that they can prepare the future games.
+Having in mind the fact that they can be on PC, on mobile -- on PC, on
+console, but also on mobile via either streaming or directly ported on the
+mobile machines.
+</p></div>
+<div class="SideNotePara"><p>  OPERATOR: We'll go next to Mike Hickey of The Benchmark
+Company.
+</p></div>
+<div class="SideNotePara"><p>  MICHAEL JOSEPH HICKEY, RESEARCH ANALYST, THE BENCHMARK COMPANY,
+LLC, RESEARCH DIVISION: So I guess, my first question is just thinking about
+your sort of additional sheer construct on sort of IPs that's already
+established. Do you think about what you've done in terms of driving a
+live service and PR monies after the launch of the game itself. And now we
+have the opportunity -- it looks like as an industry to grow with the battle
+royale mode, which it looks like some of your peers will find out shortly
+here are going to introduce it to some of their IP, traditional shooter IP.
+So I'm just wondering how impactful you think adding a BR -- a battle
+royale mode to sort of your traditional PR model off-shooter IP would be in
+driving total digital monies or total PRI growth.
+</p></div>
+<div class="SideNotePara"><p>  YVES GUILLEMOT: Yes, we see that it's working very well for
+the competition. So we, with our teams, are really looking at innovation
+coming from competitors, and we are working to make sure we take advantage of
+it. And though we can't say more, but we are working hard to make sure
+our players can have the benefit of that type of experiences.
+</p></div>
+<div class="SideNotePara"><p>  MICHAEL JOSEPH HICKEY: Okay. Good. Any sort of technical hurdles
+or issues that would sort of prevent you from being a fast follow in this new
+genre?
+</p></div>
+<div class="SideNotePara"><p>  YVES GUILLEMOT: We have engines that are adaptable, and we are
+making sure they can deliver the technical needs of those types of gameplay.
+</p></div>
+<div class="SideNotePara"><p>  ALAIN MARTINEZ: And while we...
+</p></div>
+<div class="SideNotePara"><p>  YVES GUILLEMOT: We can't tell you exactly when it's
+coming and which will come, but we like when people come with new innovation
+like this because they show also new opportunities for the industry and for
+our -- for the experiences and world that we create.
+</p></div>
+<div class="SideNotePara"><p>  ALAIN MARTINEZ: Yes. And Mike, it's very important that we
+take all those innovation, and they are very inspiring. But it's also
+important that we create our own innovation. And beyond the battle royale,
+our teams are working on many project too, which is also very important. I
+believe it's also key not to just do copycat of a mode of a particular
+thing, but to create your own innovation on your side, which is really what
+makes the difference in most case.
+</p></div>
+<div class="SideNotePara"><p>  MICHAEL JOSEPH HICKEY: Yes, yes, yes, no, I agree, guys. I guess,
+the last question. It looks like Fortnite, at least, the impact has been
+somewhat insulated because the demographic has tended to skew younger. And of
+course, that's the conversation on expanding the market, which I think
+we can all appreciate. But I'm wondering how you think about Fortnite
+sort of continuing to develop when you look at sort of the semi-dynamic maps
+that are happening and the licensing that's also happening for some of
+the short-term events like they did with Marvel. If you feel -- or concerned
+at that sort of young demographic could begin to skew older, and of course,
+that would be a concern only to -- because it seems to be where you found
+some safety, I guess, on the traditional shooter IP that skews to an older
+audience.
+</p></div>
+<div class="SideNotePara"><p>  YVES GUILLEMOT: In fact, we have to consider that what we do is to
+create an entertainment experience that is as fantastic as possible. And all
+those ideas, we also have in our games. And we like to see what other
+companies are doing, but we feel that they -- there are lots of opportunities
+in expanding the success of our games, and what we must consider is the
+business is large. We shouldn't lose the fact that you have Minecraft,
+you have League of Legends, you have plenty of games also in the industry,
+and so they have plenty of room if we can bring good experience with high
+quality that will entertain players the way they want. What is good is that
+the industry and the consumption of games is changing regularly. But our job
+is to make sure we adapt and we create new types of experiences that people
+will want to play.
+</p></div>
+<div class="SideNotePara"><p>  OPERATOR: We'll go next to Charles Scotti of Kepler.
+</p></div>
+<div class="SideNotePara"><p>  CHARLES-LOUIS SCOTTI, RESEARCH ANALYST, KEPLER CHEUVREUX, RESEARCH
+DIVISION: A couple of questions on my side. The first one is you're all
+moving very fast in your digital transformation. What level of PRI can you
+reasonably expect as a percentage of sales in the midterm? What are your
+internal target? And what is the associated profitability? The second
+question is on the recently leaked from one map that seems to indicate the
+release of the Splinter Cell in Assassin's Creed. Can you give us a
+little bit more information about that? And the third question is on treasury
+shares. What is the level of treasury shares at the end of the year? And what
+do you intend to do with them next year?
+</p></div>
+<div class="SideNotePara"><p>  YVES GUILLEMOT: So on the games to come, we can't comment on
+rumors, so you won't get more information from us today.
+</p></div>
+<div class="SideNotePara"><p>  ALAIN MARTINEZ: Yes. And regarding the PRI, what we are -- what
+we've been saying for quite a while is that we are seeing that our
+competition is at 40% of some -- over 40%. So we felt that having a
+medium-term goal of reaching this 40% was something that we should try to
+shoot for. What we are very happy is that if you look at the progress made in
+3 years, it's been outstanding. So we don't want to say that in a
+couple of years, we would be at 40%. But clearly, it's not something
+that cannot be imagined. But we're working on that, and we need to go
+and do step-by-step.
+</p></div>
+<div class="SideNotePara"><p>  YVES GUILLEMOT: And what's important to consider is that
+it's going to come from the fact that our games will be played longer,
+so it means more content supplied to players so that they can play more in
+our games. So we -- the route we are taking, the path we are taking is really
+to make sure our games last longer based on the quality of the experience so
+that when people play and they see, they can buy new elements, they can do
+it, or buy new items or new content. That is really the way we want to
+increase our PRI.
+</p></div>
+<div class="SideNotePara"><p>  ALAIN MARTINEZ: Oh, treasury share, sorry. So as it is today, as
+we were mentioning, we have 1.4% of shares that we bought in first half of
+fiscal year '18. That treasury shares will be canceled once we have done
+our latest employee shareholder plan, so they will more or less compensate
+with the new share created by our employee. And in return, as we mentioned,
+we will have EUR 100 million. On top of that, as we said, we bought some 4.5
+million shares from Vivendi. They are within the contract with the bank with
+a firm commitment to be purchased within a 3-year period, but they are
+immediately taken away from our number of shares. This is why we have
+mentioned today that our number of shares for fiscal year '19 will be
+118 million, so that includes already what we have firmly, and on the binding
+side, committed. Plus on top of that, as we mentioned also, we have a EUR 200
+million agreement with a bank, and that agreement goes both ways, either we
+can decide to buy the shares, which is, in fact, the intent, but we have the
+freedom to decide to cash in the difference if the share has gone up. So
+potentially, those EUR 200 million of shares, which amounts to something like
+3 million plus of shares, could be new treasury shares that would be added up
+to the one that we already have. Am I clear?
+</p></div>
+<div class="SideNotePara"><p>  CHARLES-LOUIS SCOTTI: Yes, very clear.
+</p></div>
+<div class="SideNotePara"><p>  OPERATOR: We'll go next to Asen Kostadinov of Barclays.
+</p></div>
+<div class="SideNotePara"><p>  ASEN KOSTADINOV, RESEARCH ANALYST, BARCLAYS BANK PLC, RESEARCH
+DIVISION: Regarding mobile revenues, you're at 5% in fiscal year
+'18. What is your target for fiscal year '19? And is that going to
+be mainly coming from organic growth? Or do you expect to have any material
+acquisitions in the next fiscal year?
+</p></div>
+<div class="SideNotePara"><p>  ALAIN MARTINEZ: So based on the acquisition we already made, we --
+our objective for this year is to reach EUR 140 million. So it's over
+40% growth versus last year. And as we mentioned, this is based -- a big part
+of it is related to the acquisition we made in the last 18 months. That
+doesn't include any further acquisition that we might do during fiscal
+year '19.
+</p></div>
+<div class="SideNotePara"><p>  ASEN KOSTADINOV: Can you just repeat the number again? Was it EUR
+440 million, is it? That seems too [high].
+</p></div>
+<div class="SideNotePara"><p>  ALAIN MARTINEZ: No, no, no, EUR 140 million. EUR 140 million.
+</p></div>
+<div class="SideNotePara"><p>  OPERATOR: And we have no further questions at this time.
+</p></div>
+<div class="SideNotePara"><p>  YVES GUILLEMOT: Okay. So thank you very much for spending the time
+today with us, and have a good day or a good evening. Thank you. Bye-bye
+then.
+</p></div>
+<div class="SideNotePara"><p>  OPERATOR: That does concludes our conference for today. We thank
+you for your participation. You may now disconnect.
+</p></div>
+<div class="SideNotePara"><p>  [Thomson Financial reserves the right to make changes to
+documents, content, or other information on this web site without obligation
+to notify any person of such changes.
+</p></div>
+<div class="SideNotePara"><p>  In the conference calls upon which Event Transcripts are based,
+companies may make projections or other forward-looking statements regarding
+a variety of items. Such forward-looking statements are based upon current
+expectations and involve risks and uncertainties. Actual results may differ
+materially from those stated in any forward-looking statement based on a
+number of important factors and risks, which are more specifically identified
+in the companies' most recent SEC filings. Although the companies may
+indicate and believe that the assumptions underlying the forward-looking
+statements are reasonable, any of the assumptions could prove inaccurate or
+incorrect and, therefore, there can be no assurance that the results
+contemplated in the forward-looking statements will be realized.
+</p></div>
+<div class="SideNotePara"><p>  THE INFORMATION CONTAINED IN EVENT TRANSCRIPTS IS A TEXTUAL
+REPRESENTATION OF THE APPLICABLE COMPANY'S CONFERENCE CALL AND WHILE
+EFFORTS ARE MADE TO PROVIDE AN ACCURATE TRANSCRIPTION, THERE MAY BE MATERIAL
+ERRORS, OMISSIONS, OR INACCURACIES IN THE REPORTING OF THE SUBSTANCE OF THE
+CONFERENCE CALLS. IN NO WAY DOES THOMSON FINANCIAL OR THE APPLICABLE COMPANY
+OR THE APPLICABLE COMPANY ASSUME ANY RESPONSIBILITY FOR ANY INVESTMENT OR
+OTHER DECISIONS MADE BASED UPON THE INFORMATION PROVIDED ON THIS WEB SITE OR
+IN ANY EVENT TRANSCRIPT. USERS ARE ADVISED TO REVIEW THE APPLICABLE
+COMPANY'S CONFERENCE CALL ITSELF AND THE APPLICABLE COMPANY'S SEC
+FILINGS BEFORE MAKING ANY INVESTMENT OR OTHER DECISIONS.]
+</p></div>
+<div class="SideNotePara"><p>  [Copyright: Content copyright 2018 Thomson Financial. ALL RIGHTS
+RESERVED. Electronic format, layout and metadata, copyright 2018 ASC LLC
+(www.ascllc.net) ALL RIGHTS RESERVED. No license is granted to the user of
+this material other than for research. User may not reproduce or redistribute
+the material except for user's personal or internal use and, in such
+case, only one copy may be printed, nor shall user use any material for
+commercial purposes or in any fashion that may infringe upon Thomson
+Financial's or ASC's copyright or other proprietary rights or
+interests in the material; provided, however, that members of the news media
+may redistribute limited portions (less than 250 words) of this material
+without a specific license from Thomson Financial and ASC so long as they
+provide conspicuous attribution to Thomson Financial and ASC as the
+originators and copyright holders of such material. This is not a legal
+transcript for purposes of litigation.]
+</p></div>
+<!--14214508--></div></div><!-- meta:id:540940787-->
+
+<!-- RSPEAK_STOP -->
+<div class="rs_skip">
+	
+
+<div class="citationWrapper">
+	<div id="document-sourcecitation" class="removeBreak">
+		<span class="small" id="SourceCitation">
+			<b>来源引文</b>&nbsp;&nbsp;
+							（MLA 第 8 版<sup></sup>）
+						<span class="citation IAC Gale">
+				<span class="citation Generated"><div style="text-indent: -2em; padding-left: 2em" class="ct_Periodical"><div>"Full Year 2018 Ubisoft Entertainment SA Earnings Call - Final." <i>Fair Disclosure Wire</i>, 17 May 2018. <i>Business Collection</i>, http://link.galegroup.com/apps/doc/A540940787/GPS?u=sichuan&amp;sid=GPS&amp;xid=385f8e41. Accessed 26 June 2018.</div></div></span>
+			</span>
+		</span>
+	</div>
+	<br>
+		<div id="document-tgnumber">
+		<p>
+			<b>Gale 文章编号： </b>
+			<span class="tgnumber">GALE|A540940787</span>
+		</p>
+	</div>
+</div>
+				</div>
+</div> 
+
+
+			</body></html>
