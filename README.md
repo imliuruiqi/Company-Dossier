@@ -12,9 +12,6 @@ This is the coursework of the information consultation course. See [assignment r
 
 > 育碧娱乐公司，2003年前名为“育碧娱乐软件”，简称“育碧”，是一家总部设于法国雷恩的股份公司、电子游戏开发商和发行商，成立于1986年。该公司在全世界拥有23间游戏开发工作室，是2008年欧洲第三大独立游戏开发商，也是北美第四独立出版商。 [维基百科](https://zh.wikipedia.org/zh-cn/%E8%82%B2%E7%A2%A7)
 
-## 确定策略
-
-
 ## 信息搜集（进行中）
 
 ### 搜集方式及内容
@@ -23,7 +20,7 @@ This is the coursework of the information consultation course. See [assignment r
 
 **以官方首页EN为主，社交网络媒体为辅：** Ubisoft在全球主要国家都有其官网和社交账号，全部搜集的话难度大且重复工作多，因而可以主要从最官方的主页，即其英文版首页入手搜集信息。
 
-**利用好第三方整合好的数据：** 提到游戏就不得不提steam，利用好steam平台是搜集好Ubisoft公司产品的关键，有关Steam的介绍参见：[steam-wikipedia](https://zh.wikipedia.org/zh-cn/Steam),关于本项目如何使用steam，参见[get infromation from Steam](/get%20information%20from%20Steam.md)。
+**利用好第三方整合好的数据：** 提到游戏就不得不提steam，利用好steam平台是搜集好Ubisoft公司产品的关键，有关Steam的介绍参见：[steam-wikipedia](https://zh.wikipedia.org/zh-cn/Steam),关于本项目如何使用steam，参见[get infromation from Steam](/get%20information%20from%20Steam.md)。利用Gale等数据库检索相关报告。
 
 **以产品服务为重点:** 在游戏行业，游戏做的好不好，销量怎么样是一个公司成败的关键。游戏的口碑和销量是本次信息搜集的落脚点，由此延伸出对公司的外界评价和公司发展状况的信息。
 
@@ -61,21 +58,25 @@ This is the coursework of the information consultation course. See [assignment r
 期待得出的信息：
 
 - 公司的效益趋向、口碑趋向
+- 公司财务信息
 - 产品的情况：重点产品、产品效益口碑
 - 优劣势分析
 - 威胁与机会分析
-- 战略预测
+- 战略预测、技术趋势
 
 ## 文档展示
 
 对获取的信息进行文档的展示，为最终的作业成果。展示的内容有：
 
 - 公司简介
-- 价值观
+- 关键信息
+- 业务描述
 - 历史 大事记
-- 重要人员
-- 股票 财务
-- 产品 市场
-- 新闻 活动
-- 竞争对手及合作伙伴
-- 职位 招聘
+- 重要员工
+- 股票和财务
+- 主要产品服务
+- 新闻和活动
+- SWOT分析
+- 主要竞争对手及合作伙伴
+- 研发
+- 其他地点和子公司
