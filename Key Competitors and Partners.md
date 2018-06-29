@@ -48,11 +48,9 @@
 - 2K Games:生化奇兵系列、无主之地系列、文明系列、毁灭公爵系列、黑手党系列、美国职业棒球大联盟2K系列、全美职业篮球联赛2K系列、全美职业橄榄球2K系列、北美冰球联盟2K系列等
 - Rockstar Games:恶霸鲁尼、侠盗猎车手系列、黑色洛城、侠盗猎魔系列、荒野大镖客系列
 
-#### 竞争详情
+#### 游戏评分
 
-#####游戏评分
-
-**Metacritic 2017发行商排名**
+##### Metacritic 2017发行商排名
 
 http://www.metacritic.com/feature/game-publisher-rankings-for-2017-releases
 
@@ -68,7 +66,7 @@ http://www.metacritic.com/feature/game-publisher-rankings-for-2017-releases
 - 艺电    平均得分 73.2   排名  5
 - Take-Two Interactive  平均得分 72.8   排名  9
 
-**Metacritic 游戏评分
+##### Metacritic 游戏评分
 
 Metacritic上的各发行商在育碧2018财年内，主要发行游戏的评分情况
 
