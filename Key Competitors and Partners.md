@@ -6,7 +6,7 @@
 
 - Activision Blizzard, Inc. （动视暴雪）
 - Electronic Arts Inc. （艺电）
-- Konami Hodings Corporation （科乐美公司）
+- Konami Holdings Corporation （科乐美公司）
 - Nintendo Co., Ltd. (任天堂公司)
 - Take-Two Interactive Software, Inc. 
 - Capcom
