@@ -1,18 +1,37 @@
 ## 主要产品和服务
 
-育碧娱乐股份公司（Ubisoft）从事为游戏主机，个人电脑（PC），智能手机和平板电脑提供物理和数字格式的视频游戏的制作，发布和分销。该集团的主要产品和品牌包括以下内容： 
+### 概述
+
+- 发布游戏数（据Steam Spy统计）：115
+- 用户平均评分：74.58% 
+- **metascore** 平均评分：76.37%
+- 平均游玩时间（Steam数据）：03：40
+- 玩家拥有的副本总数：60,333,000 
+- 平均价格：$7.35 
 
 ### 产品
 
-#### 游戏
+#### 关键游戏
 
-包括育碧发行的游戏，和育碧出版的其他重要工作室为某些特定平台制作的着名特许经营权。
+包括育碧发行的游戏，和育碧出版的其他工作室为某些特定平台制作的特许经营权。详细的游戏列表请参考附录。以下为该公司主要IP：
 
-详细的游戏列表请参考附录。
+- 刺客信条 ASSASSIN'S CREED
+- 孤岛惊魂  FAR CRY
+- 荣耀战魂 FOR HONOR
+- 幽灵行动：荒野 GHOST RECON
+- 彩虹六号  RAINBOW SIX
+- 南方公园  SOUTH PARK
+- 极限巅峰  STEEP
+- 飙酷车神  THE CREW
+- 全境封锁  THE DIVISION
+- 看门狗  WATCH DOGS
+- 舞力全开 JUST DANCE
+
+
 
 #### 附加服务
 
-育碧基于游戏发行和分销而衍生出其他的服务，如Uplay、Ubisoft Club和Uplay Store。
+育碧基于游戏发行和分销而衍生出其他的服务。
 
 ##### Uplay
 
@@ -66,7 +85,7 @@ Ubisoft Club, 之前称为 Uplay, 是 Ubisoft 于 2009 年与刺客信条II一�
 - TRIALS RISING 
 - THE CREW 2 
 - BEYOND GOOD AND EVIL 2 
-- SKULL AND BONES  （新IP）
+- SKULL AND BONES  （较新IP）
 - Starlink：Battle of Atlas 
 - Transference 
 

@@ -1,5 +1,13 @@
 ## 研发
 
+### 概述
+
+育碧十分重视技术研发投入和新技术的运用，目前已有多款游戏引擎被研发且投入游戏制作的使用中。
+
+育碧还十分注重知识的共享与技术合作，促进企业内部的技术研发，推动整个行业技术的创新，其在游戏行业的地位越发重要。
+
+2017/18财年内，育碧还投资动画和电影，并推行其相关视频制作和图形渲染技术。
+
 ### 研发政策
 
 为了开发出色的视频游戏，育碧制定了以项目为中心的工具和技术研究和开发政策，这些项目融合了最新的技术。
@@ -18,5 +26,13 @@
 
 2017/2018财年，集团内部开发软件和电影的成本总计为6.79亿欧元，比前一年增长了18％。
 
-###技术成果
+###技术
+
+- AnvilNext：Anvil（直到2009年被称为Scimitar）是一款游戏引擎，由育碧蒙特利尔视频游戏开发商于2007年创建，用于Microsoft Windows，Nintendo Switch，PlayStation 3，PlayStation 4，PlayStation Vita，Wii U，Xbox 360和Xbox One。 刺客信条系列、彩虹六号：围攻、幽灵行动、荣耀战魂、steep等游戏中都使用了这一引擎。
+- Jade：Jade引擎是由育碧开发和使用的游戏引擎。 该引擎最初是由蒙彼利埃育碧开发团队开发的，因其广受好评的电子游戏Beyond Good＆Evil（Beyond Good＆Evil）而出名，其主角Jade共用它的名字。 该引擎提供了极大的灵活性，包括不同的游戏顺序和详细的图形，无论是在电影和游戏中。 自2003年推出以来，该引擎已被进一步开发用于以后列出的游戏中。
+- LyN： LyN是Ubisoft Montpellier开发和使用的专有游戏引擎。该引擎与Rabbids Go Home一起开发 。
+- Snowdrop：Snowdrop是由育碧创建的专有游戏引擎，用于Microsoft Windows，Nintendo Switch，PlayStation 4和Xbox One。 它首次在E3 2013上与汤姆克兰西的The Division一起披露，这是第一款使用该引擎的游戏。
+- UbiArt Framework：UbiArt Framework是一款由Ubisoft Montpellier开发的2.5D视频游戏引擎。 其功能是将2D动画矢量图形[1]组织成可播放的视频游戏，而不需要大量编码。著名的雷曼系列使用的就是这一引擎。
+
+
 
