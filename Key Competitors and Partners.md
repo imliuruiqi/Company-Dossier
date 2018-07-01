@@ -48,7 +48,7 @@
 - 2K Games:生化奇兵系列、无主之地系列、文明系列、毁灭公爵系列、黑手党系列、美国职业棒球大联盟2K系列、全美职业篮球联赛2K系列、全美职业橄榄球2K系列、北美冰球联盟2K系列等
 - Rockstar Games:恶霸鲁尼、侠盗猎车手系列、黑色洛城、侠盗猎魔系列、荒野大镖客系列
 
-#### 游戏评分
+#### 游戏表现
 
 ##### Metacritic 2017发行商排名
 
@@ -70,22 +70,22 @@ http://www.metacritic.com/feature/game-publisher-rankings-for-2017-releases
 
 Metacritic上的各发行商在育碧2018财年内，主要发行游戏的评分情况
 
-- 育碧                   83
-  - AC Origins      83
-  - South Park FBW  81
-  - Mario + Rabbids 85
-  - Far Cry 5       81
-- 动视暴雪                81
-  - COD WWII        77
-  - Destiny 2       85
-- 艺电                    73
-  - Star Wars BFII  67
-  - FIFA 18         82
-  - NFS Payback     60
-  - Madden 18       82
-- T2                      74
-  - NBA 2K18        82
-  - WWE 2K18        66
+- 育碧                                         83
+  - AC Origins                   83
+  - South Park FBW       81
+  - Mario + Rabbids       85
+  - Far Cry 5                      81
+- 动视暴雪                               81
+  - COD WWII      	        77
+  - Destiny 2                     85
+- 艺电                                        73
+  - Star Wars BFII            67
+  - FIFA 18                          82
+  - NFS Payback              60
+  - Madden 18                  82
+- T2                                            74
+  - NBA 2K18                     82
+  - WWE 2K18                   66
 
 
 
