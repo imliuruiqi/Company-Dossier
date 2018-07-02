@@ -1,4 +1,4 @@
-## 研发
+## 研发和技术
 
 ### 概述
 
@@ -28,7 +28,7 @@
 
 ###技术
 
-- AnvilNext：Anvil（直到2009年被称为Scimitar）是一款游戏引擎，由育碧蒙特利尔视频游戏开发商于2007年创建，用于Microsoft Windows，Nintendo Switch，PlayStation 3，PlayStation 4，PlayStation Vita，Wii U，Xbox 360和Xbox One。 刺客信条系列、彩虹六号：围攻、幽灵行动、荣耀战魂、steep等游戏中都使用了这一引擎。
+- AnvilNext：Anvil（直到2009年被称为Scimitar）是一款游戏引擎，由育碧蒙特利尔视频游戏开发商于2007年开发，用于Microsoft Windows，Nintendo Switch，PlayStation 3，PlayStation 4，PlayStation Vita，Wii U，Xbox 360和Xbox One。 刺客信条系列、彩虹六号：围攻、幽灵行动、荣耀战魂、steep等游戏中都使用了这一引擎。
 - Jade：Jade引擎是由育碧开发和使用的游戏引擎。 该引擎最初是由蒙彼利埃育碧开发团队开发的，因其广受好评的电子游戏Beyond Good＆Evil（Beyond Good＆Evil）而出名，其主角Jade共用它的名字。 该引擎提供了极大的灵活性，包括不同的游戏顺序和详细的图形，无论是在电影和游戏中。 自2003年推出以来，该引擎已被进一步开发用于以后列出的游戏中。
 - LyN： LyN是Ubisoft Montpellier开发和使用的专有游戏引擎。该引擎与Rabbids Go Home一起开发 。
 - Snowdrop：Snowdrop是由育碧创建的专有游戏引擎，用于Microsoft Windows，Nintendo Switch，PlayStation 4和Xbox One。 它首次在E3 2013上与汤姆克兰西的The Division一起披露，这是第一款使用该引擎的游戏。

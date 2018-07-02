@@ -1,4 +1,4 @@
-# News and Events Summary
+## 新闻和活动
 
 ### 概况
 

@@ -1,4 +1,4 @@
-## Key Competitors and Partners
+## 竞争对手
 
 ### 竞争对手名单
 
