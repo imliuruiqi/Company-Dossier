@@ -1,5 +1,7 @@
 # Company-Dossier
 
+*see final [report](/finalreport.pdf)*
+
 This is the coursework of the information consultation course. See [assignment requirement](  /Company%20Dossier%20Building.md)
 
 为提供概括功能，该文档将尽量保持简洁。
